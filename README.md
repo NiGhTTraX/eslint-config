@@ -1,7 +1,5 @@
 ## Install
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/NiGhTTraX/eslint-config.svg)](https://greenkeeper.io/)
-
 ```sh
 npm install --save-dev @nighttrax/eslint-config \
       babel-eslint \
