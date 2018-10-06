@@ -1,6 +1,6 @@
 {
   "name": "@nighttrax/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NiGhTTraX's ESLint config",
   "main": "index.js",
   "keywords": [
