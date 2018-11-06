@@ -3,8 +3,6 @@ const { rules: testRules } = require('./tests.js');
 module.exports = {
   'root': true,
 
-  'parser': 'babel-eslint',
-
   'extends': [
     'airbnb',
     'plugin:import/errors'

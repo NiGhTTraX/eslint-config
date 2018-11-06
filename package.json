@@ -14,7 +14,6 @@
     "url": "https://github.com/NiGhTTraX/eslint-config.git"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
     "eslint": "^5.6.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
@@ -22,7 +21,6 @@
     "eslint-plugin-react": "^7.11.1"
   },
   "peerDependencies": {
-    "babel-eslint": "^10.0.1",
     "eslint": "^5.6.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
