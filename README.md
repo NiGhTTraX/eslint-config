@@ -19,6 +19,7 @@ module.exports = {
   'extends': [
     '@nighttrax',
     '@nighttrax/react',
+    '@nighttrax/react-a11y',
     '@nighttrax/imports'
   ]
 };
