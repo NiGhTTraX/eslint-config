@@ -16,6 +16,10 @@ plugins need to be installed manually.
 ```js
 // .eslintrc.js
 module.exports = {
-  'extends': '@nighttrax'
+  'extends': [
+    '@nighttrax',
+    '@nighttrax/react',
+    '@nighttrax/imports'
+  ]
 };
 ```
