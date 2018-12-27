@@ -4,8 +4,7 @@ module.exports = {
   'root': true,
 
   'extends': [
-    'airbnb',
-    'plugin:import/errors'
+    'airbnb'
   ],
 
   'env': {
@@ -43,9 +42,6 @@ module.exports = {
     'function-paren-newline': [2, 'consistent'],
     'object-curly-newline': [2, {'consistent': true }],
     'no-plusplus': 0,
-
-    // TODO: https://github.com/benmosher/eslint-plugin-import/issues/414
-    'import/extensions': 0,
 
     'react/jsx-filename-extension': 0,
     'react/jsx-wrap-multilines': 0,
