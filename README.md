@@ -1,9 +1,16 @@
 ## Install
 
 ```sh
-npm install --save-dev @nighttrax/eslint-config \
-      babel-eslint \
-      eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
+npm i @nighttrax/eslint-config
+
+# Or equivalent.
+npm i babel-eslint
+
+# These are optional and are required by their respectiv configs.
+npm i \
+    eslint-plugin-import \
+    eslint-plugin-jsx-a11y \
+    eslint-plugin-react
 ```
 
 Unfortunately, until
@@ -16,6 +23,11 @@ plugins need to be installed manually.
 ```js
 // .eslintrc.js
 module.exports = {
-  'extends': '@nighttrax'
+  'extends': [
+    '@nighttrax/eslint-config',
+    '@nighttrax/eslint-config/react',
+    '@nighttrax/eslint-config/react-a11y',
+    '@nighttrax/eslint-config/imports'
+  ].map(require.resolve)
 };
 ```
