@@ -27,7 +27,7 @@ module.exports = {
         'state',
         'constructor',
         'render',
-        '/^_render.+$/', // any auxiliary _render methods
+        '/^(_)?render.+$/', // any auxiliary render methods
         'componentWillMount',
         'componentDidMount',
         'componentWillReceiveProps',
