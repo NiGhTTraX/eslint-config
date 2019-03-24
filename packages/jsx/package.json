@@ -1,0 +1,24 @@
+{
+  "name": "@nighttrax/eslint-config-jsx",
+  "version": "1.0.0",
+  "description": "NiGhTTraX's ESLint config for JSX apps",
+  "keywords": [
+    "eslint",
+    "config",
+    "jsx",
+    "react"
+  ],
+  "author": "Andrei Picus <NiGhTTraX@users.noreply.github.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiGhTTraX/eslint-config.git"
+  },
+  "dependencies": {
+    "@nighttrax/eslint-config-base": "~1.0.0"
+  },
+  "peerDependencies": {
+    "eslint-plugin-react": "^7.11.1"
+  }
+}

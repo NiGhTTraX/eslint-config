@@ -1,9 +1,6 @@
-/**
- * Rules for linting a TS lib.
- */
 module.exports = {
   'extends': [
-    '@nighttrax/eslint-config'
+    '@nighttrax/eslint-config-base'
   ].map(require.resolve),
 
   'parser': '@typescript-eslint/parser',

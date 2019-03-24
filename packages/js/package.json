@@ -1,0 +1,24 @@
+{
+  "name": "@nighttrax/eslint-config-js",
+  "version": "1.0.0",
+  "description": "NiGhTTraX's ESLint config for JS libs",
+  "keywords": [
+    "eslint",
+    "config",
+    "js"
+  ],
+  "author": "Andrei Picus <NiGhTTraX@users.noreply.github.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiGhTTraX/eslint-config.git"
+  },
+  "dependencies": {
+    "@nighttrax/eslint-config-base": "~1.0.0",
+    "babel-eslint": "~10.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^5.6.1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@nighttrax/eslint-config-tsx",
+  "version": "1.0.0",
+  "description": "NiGhTTraX's ESLint config for TSX apps",
+  "keywords": [
+    "eslint",
+    "config",
+    "typescript",
+    "react"
+  ],
+  "author": "Andrei Picus <NiGhTTraX@users.noreply.github.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiGhTTraX/eslint-config.git"
+  },
+  "dependencies": {
+    "@nighttrax/eslint-config-ts": "~1.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^5.6.1"
+  }
+}

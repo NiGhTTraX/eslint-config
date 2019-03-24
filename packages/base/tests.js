@@ -5,7 +5,7 @@
  * config, but can also be used directly.
  */
 module.exports = {
-  'extends': '@nighttrax',
+  'extends': '@nighttrax/eslint-config-base',
 
   'rules': {
     'func-names': 0,

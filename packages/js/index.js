@@ -5,6 +5,6 @@ module.exports = {
   'parser': 'babel-eslint',
 
   'extends': [
-    '@nighttrax/eslint-config
-  ].map(require.resolve)
+    '@nighttrax/eslint-config-base'
+  ].map(require.resolve),
 };

@@ -1,35 +1,13 @@
 {
   "name": "@nighttrax/eslint-config",
-  "version": "2.2.0",
-  "description": "NiGhTTraX's ESLint config",
-  "main": "index.js",
-  "keywords": [
-    "eslint",
-    "eslintconfig"
-  ],
+  "private": true,
+  "version": "0.0.0",
   "author": "Andrei Picus",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/NiGhTTraX/eslint-config.git"
-  },
-  "dependencies": {
-    "@typescript-eslint/parser": "~1.5.0",
-    "babel-eslint": "~10.0.1",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-airbnb-base": "^13.1.0"
-  },
-  "peerDependencies": {
-    "eslint": "^5.6.1"
-  },
-  "optionalDependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.5.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.11.1"
+  "scripts": {
+    "bootstrap": "lerna bootstrap"
   },
   "devDependencies": {
-    "eslint": "~5.15.3",
-    "typescript": "~3.3.4000"
+    "lerna": "~3.13.1"
   }
 }
