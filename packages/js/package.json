@@ -18,7 +18,7 @@
     "url": "git+https://github.com/NiGhTTraX/eslint-config.git"
   },
   "dependencies": {
-    "@nighttrax/eslint-config-base": "~1.0.0",
+    "@nighttrax/eslint-config-base": "~0.0.2",
     "babel-eslint": "~10.0.1"
   },
   "peerDependencies": {
