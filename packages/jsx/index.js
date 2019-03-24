@@ -1,6 +1,6 @@
 module.exports = {
   'extends': [
-    '@nighttrax/eslint-config-base',
+    '@nighttrax/eslint-config-js',
     '@nighttrax/eslint-config-react'
   ],
 };
