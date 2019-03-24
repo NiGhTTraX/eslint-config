@@ -5,7 +5,8 @@
   "author": "Andrei Picus",
   "license": "MIT",
   "scripts": {
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "pub": "lerna publish"
   },
   "devDependencies": {
     "lerna": "~3.13.1"
