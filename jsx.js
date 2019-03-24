@@ -3,7 +3,7 @@
  */
 module.exports = {
   'extends': [
-    '@nighttrax/eslint-config',
+    '@nighttrax/eslint-config/js',
     '@nighttrax/eslint-config/react'
   ].map(require.resolve),
 };
