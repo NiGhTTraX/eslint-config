@@ -6,16 +6,16 @@ module.exports = {
     '@nighttrax/eslint-config'
   ].map(require.resolve),
 
-  'parser': 'typescript-eslint-parser',
+  'parser': '@typescript-eslint/parser',
 
   'plugins': [
-    'typescript'
+    '@typescript-eslint'
   ],
 
   'rules': {
     // ESLint doesn't understand interfaces yet and marks them as undefined.
     'no-undef': 0,
 
-    'typescript/no-unused-vars': 2
+    '@typescript-eslint/no-unused-vars': 2
   }
 };
