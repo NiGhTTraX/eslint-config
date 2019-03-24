@@ -19,6 +19,7 @@
     "url": "git+https://github.com/NiGhTTraX/eslint-config.git"
   },
   "dependencies": {
+    "@nighttrax/eslint-config-react": "^0.0.2",
     "@nighttrax/eslint-config-ts": "^0.0.3"
   },
   "peerDependencies": {
