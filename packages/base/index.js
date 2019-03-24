@@ -50,7 +50,12 @@ module.exports = {
   },
 
   'overrides': [{
-    'files': ['tests/**/*.js'],
+    'files': [
+        'tests/**/*.js',
+        'tests/**/*.jsx',
+        'tests/**/*.ts',
+        'tests/**/*.tsx'
+    ],
     'rules': testRules
   }]
 };
