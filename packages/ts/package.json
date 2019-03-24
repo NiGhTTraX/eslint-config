@@ -1,6 +1,6 @@
 {
   "name": "@nighttrax/eslint-config-ts",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "NiGhTTraX's ESLint config for TS libs",
   "keywords": [
     "eslint",
