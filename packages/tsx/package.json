@@ -1,6 +1,9 @@
 {
   "name": "@nighttrax/eslint-config-tsx",
   "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "NiGhTTraX's ESLint config for TSX apps",
   "keywords": [
     "eslint",

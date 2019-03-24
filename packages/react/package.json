@@ -1,6 +1,9 @@
 {
   "name": "@nighttrax/eslint-config-react",
   "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "NiGhTTraX's ESLint config for React components",
   "keywords": [
     "eslint",

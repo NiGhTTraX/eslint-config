@@ -1,6 +1,9 @@
 {
   "name": "@nighttrax/eslint-config-js",
   "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "NiGhTTraX's ESLint config for JS libs",
   "keywords": [
     "eslint",
