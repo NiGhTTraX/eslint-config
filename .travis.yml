@@ -10,3 +10,5 @@ before_script:
 
 script:
   - ./test.sh react-test-buffet jsx
+  - ./test.sh react-connect-state tsx
+  - ./test.sh mugshot ts
