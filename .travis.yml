@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - 10
+sudo: required
+services:
+  - docker
+
+before_script:
+  - npm run bootstrap
+
+script:
+  - ./test.sh react-test-buffet jsx
