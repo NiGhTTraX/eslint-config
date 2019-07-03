@@ -1,6 +1,6 @@
 {
   "name": "@nighttrax/eslint-config-jsx",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publishConfig": {
     "access": "public"
   },
@@ -19,8 +19,8 @@
     "url": "git+https://github.com/NiGhTTraX/eslint-config.git"
   },
   "dependencies": {
-    "@nighttrax/eslint-config-js": "^1.0.1",
-    "@nighttrax/eslint-config-react": "^1.0.0"
+    "@nighttrax/eslint-config-js": "^1.0.2",
+    "@nighttrax/eslint-config-react": "^1.0.1"
   },
   "peerDependencies": {
     "eslint-plugin-react": "^7.11.1"
