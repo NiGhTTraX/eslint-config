@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@nighttrax/eslint-config-base": "^1.0.2",
-    "@typescript-eslint/parser": "~1.10.0"
+    "@typescript-eslint/parser": "~1.13.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^1.5.0",
