@@ -9,6 +9,5 @@ before_script:
   - npm run bootstrap -- --no-ci
 
 script:
-  - ./test.sh react-test-buffet jsx
   - ./test.sh react-connect-state tsx
   - ./test.sh mugshot ts
