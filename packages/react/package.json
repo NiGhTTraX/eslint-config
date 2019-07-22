@@ -18,11 +18,11 @@
     "url": "git+https://github.com/NiGhTTraX/eslint-config.git"
   },
   "dependencies": {
-    "eslint-config-airbnb": "^17.1.0"
-  },
-  "peerDependencies": {
-    "eslint": "^5.6.1",
+    "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.1"
+  },
+  "peerDependencies": {
+    "eslint": "^6.1.0"
   }
 }

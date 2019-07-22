@@ -23,6 +23,6 @@
     "@nighttrax/eslint-config-ts": "^2.0.3"
   },
   "peerDependencies": {
-    "eslint": "^5.6.1"
+    "eslint": "^6.1.0"
   }
 }
