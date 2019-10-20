@@ -6,6 +6,6 @@
     "pub": "lerna publish"
   },
   "devDependencies": {
-    "lerna": "~3.16.0"
+    "lerna": "~3.18.1"
   }
 }
