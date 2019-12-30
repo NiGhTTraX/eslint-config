@@ -1,9 +1,10 @@
 module.exports = {
   'extends': [
     'eslint-config-airbnb/rules/react',
+  ].map(require.resolve).concat([
     // This disables all stylistic rules from the above.
     'prettier/react'
-  ].map(require.resolve),
+  ]),
 
   'rules': {
     'react/destructuring-assignment': 0,

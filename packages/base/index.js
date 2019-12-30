@@ -10,9 +10,10 @@ module.exports = {
     'eslint-config-airbnb-base/rules/style',
     'eslint-config-airbnb-base/rules/variables',
     'eslint-config-airbnb-base/rules/es6',
+  ].map(require.resolve).concat([
     // This disables all stylistic rules from the above.
     'prettier'
-  ].map(require.resolve),
+  ]),
 
   'env': {
     'browser': true

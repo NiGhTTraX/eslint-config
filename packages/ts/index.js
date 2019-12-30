@@ -3,7 +3,7 @@ module.exports = {
     '@nighttrax/eslint-config-base',
     // This disables all stylistic rules from the above.
     'prettier/@typescript-eslint'
-  ].map(require.resolve),
+  ],
 
   'parser': '@typescript-eslint/parser',
 
