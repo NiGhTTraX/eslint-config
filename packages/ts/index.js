@@ -16,6 +16,12 @@ module.exports = {
     'no-undef': 0,
 
     // This is noisy while refactoring.
-    '@typescript-eslint/no-unused-vars': 2
+    '@typescript-eslint/no-unused-vars': 2,
+
+    // Allow `constructor(private foo: number) {}`
+    'no-useless-constructor': 0,
+    'no-empty-function': ['error', {
+      'allow': ['constructors']
+    }]
   }
 };
