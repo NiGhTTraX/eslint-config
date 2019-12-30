@@ -1,6 +1,8 @@
 module.exports = {
   'extends': [
     'eslint-config-airbnb/rules/react',
+    // This disables all stylistic rules from the above.
+    'prettier/react'
   ].map(require.resolve),
 
   'rules': {
