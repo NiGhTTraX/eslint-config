@@ -1,6 +1,6 @@
 {
   "name": "@nighttrax/eslint-config-tsx",
-  "version": "4.0.1-alpha.0",
+  "version": "4.0.2-alpha.0",
   "publishConfig": {
     "access": "public"
   },
@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@nighttrax/eslint-config-react": "^3.0.1-alpha.0",
-    "@nighttrax/eslint-config-ts": "^4.0.1-alpha.0"
+    "@nighttrax/eslint-config-ts": "^4.0.2-alpha.0"
   },
   "peerDependencies": {
     "eslint": "^6.1.0"
