@@ -22,7 +22,7 @@ module.exports = {
   'plugins': ['prettier'],
 
   'rules': {
-    'prettier/prettier': true,
+    'prettier/prettier': 'error',
 
     // Overwrite the airbnb one to force CallExpression arguments to be indented
     // like the first one.
