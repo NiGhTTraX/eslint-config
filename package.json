@@ -1,11 +1,13 @@
 {
   "name": "@nighttrax/eslint-config",
   "private": true,
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "pub": "lerna publish"
   },
   "devDependencies": {
-    "lerna": "~3.18.1"
+    "lerna": "~3.20.1"
   }
 }
