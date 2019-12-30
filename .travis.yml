@@ -4,7 +4,3 @@ node_js:
 sudo: required
 services:
   - docker
-
-script:
-  - ./test.sh react-connect-state tsx
-  - ./test.sh mugshot ts
