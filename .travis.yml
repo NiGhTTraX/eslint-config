@@ -6,5 +6,5 @@ services:
   - docker
 
 script:
-  - ./test.sh react-connect-state tsx
+  - ./test.sh tdd-buffet tsx
   - ./test.sh mugshot ts
