@@ -1,4 +1,4 @@
-const baseConfig = require('@nighttrax/eslint-config-base');
+const testOverrides = require('@nighttrax/eslint-config-base/tests.js');
 
 module.exports = {
   'extends': [
@@ -38,8 +38,9 @@ module.exports = {
   },
 
   'overrides': [{
-    'files': baseConfig.overrides[0].files,
+    'files': testOverrides.files,
     'rules': {
+      // Re-apply this override because we've customized the error above.
       'no-empty-function': 0
     }
   }]

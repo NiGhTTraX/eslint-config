@@ -1,4 +1,4 @@
-const testRules = require('./tests.js');
+const testOverrides = require('./tests.js');
 
 module.exports = {
   'root': true,
@@ -38,13 +38,7 @@ module.exports = {
     'no-plusplus': 0,
   },
 
-  'overrides': [{
-    'files': [
-        '**/tests/**/*.js',
-        '**/tests/**/*.jsx',
-        '**/tests/**/*.ts',
-        '**/tests/**/*.tsx'
-    ],
-    'rules': testRules
-  }]
+  'overrides': [
+    testOverrides,
+  ]
 };
