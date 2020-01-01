@@ -22,8 +22,6 @@ module.exports = {
     'react/sort-comp': [2, {
       order: [
         'displayName',
-        'propTypes',
-        'mixins',
         'statics',
         'static-methods',
         'defaultProps',
