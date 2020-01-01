@@ -12,6 +12,6 @@ cd /tmp
 git clone https://github.com/NiGhTTraX/"$PROJECT".git
 cd "$PROJECT"
 
-yarn i --silent
+yarn install
 yarn link @nighttrax/eslint-config-"$CONFIG"
 yarn run lint
