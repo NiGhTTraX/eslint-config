@@ -9,6 +9,7 @@ cd packages/"$CONFIG"
 yarn link
 
 cd /tmp
+rm -rf "$PROJECT"
 git clone https://github.com/NiGhTTraX/"$PROJECT".git
 cd "$PROJECT"
 
