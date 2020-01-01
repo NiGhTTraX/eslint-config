@@ -8,7 +8,9 @@ module.exports = {
 
   'rules': {
     'react/destructuring-assignment': 0,
-    'react/jsx-filename-extension': 0,
+    'react/jsx-filename-extension': ['error',
+      { 'extensions': ['.tsx', '.jsx']
+    }],
     'react/prefer-stateless-function': 0,
     'react/jsx-no-bind': 0,
     'react/sort-comp': [2, {
