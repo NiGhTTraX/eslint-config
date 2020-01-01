@@ -1,3 +1,5 @@
+const baseConfig = require('@nighttrax/eslint-config-base');
+
 module.exports = {
   'extends': [
     '@nighttrax/eslint-config-base',
@@ -33,5 +35,12 @@ module.exports = {
     'no-empty-function': ['error', {
       'allow': ['constructors']
     }]
-  }
+  },
+
+  'overrides': [{
+    'files': baseConfig.overrides[0].files,
+    'rules': {
+      'no-empty-function': 0
+    }
+  }]
 };
