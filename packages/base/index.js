@@ -19,10 +19,14 @@ module.exports = {
     'browser': true
   },
 
-  'plugins': ['prettier'],
+  'plugins': ['prettier', 'import'],
 
   'rules': {
     'prettier/prettier': 'error',
+
+    'import/no-extraneous-dependencies': ['error', {
+      devDependencies: false
+    }],
 
     'one-var': 0,
     'one-var-declaration-per-line': 0,

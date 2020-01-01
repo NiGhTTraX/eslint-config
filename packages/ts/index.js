@@ -11,6 +11,16 @@ module.exports = {
     '@typescript-eslint'
   ],
 
+  'settings': {
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx']
+    },
+    'import/resolver': {
+      // use <root>/tsconfig.json
+      'typescript': {},
+    }
+  },
+
   'rules': {
     // ESLint doesn't understand interfaces yet and marks them as undefined.
     'no-undef': 0,
