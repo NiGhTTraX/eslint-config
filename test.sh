@@ -2,6 +2,8 @@
 
 set -e
 
+cd "$(dirname "$0")"
+
 PROJECT=$1
 CONFIG=$2
 
