@@ -18,6 +18,9 @@
     "type": "git",
     "url": "git+https://github.com/NiGhTTraX/eslint-config.git"
   },
+  "scripts": {
+    "test": "../../test.sh tdd-buffet tsx"
+  },
   "dependencies": {
     "@nighttrax/eslint-config-react": "^3.0.1-alpha.0",
     "@nighttrax/eslint-config-ts": "^4.0.4-alpha.0"

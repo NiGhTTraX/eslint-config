@@ -17,6 +17,9 @@
     "type": "git",
     "url": "git+https://github.com/NiGhTTraX/eslint-config.git"
   },
+  "scripts": {
+    "test": "../../test.sh mugshot ts"
+  },
   "dependencies": {
     "@nighttrax/eslint-config-base": "^3.0.4-alpha.0",
     "@typescript-eslint/eslint-plugin": "~2.14.0",
