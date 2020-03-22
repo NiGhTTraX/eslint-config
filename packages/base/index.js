@@ -31,7 +31,6 @@ module.exports = {
     'one-var': 0,
     'one-var-declaration-per-line': 0,
     'prefer-arrow-callback': 0,
-    'arrow-parens': [2, 'as-needed'],
     'strict': 0,
     'no-use-before-define': [2, {'functions': false}],
     'no-underscore-dangle': 0,
