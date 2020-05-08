@@ -23,6 +23,6 @@
     "eslint-plugin-react": "^7.16.0"
   },
   "peerDependencies": {
-    "eslint": "^6.1.0"
+    "eslint": "^7.0.0"
   }
 }
