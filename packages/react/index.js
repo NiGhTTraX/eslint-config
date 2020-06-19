@@ -7,6 +7,8 @@ module.exports = {
   ]),
 
   'rules': {
+    // Prefer types.
+    'react/prop-types': 'off',
     'react/destructuring-assignment': 0,
     'react/jsx-filename-extension': ['error',
       { 'extensions': ['.tsx', '.jsx']
