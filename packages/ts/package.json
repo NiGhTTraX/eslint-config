@@ -22,8 +22,8 @@
   },
   "dependencies": {
     "@nighttrax/eslint-config-base": "^4.0.0-beta.2",
-    "@typescript-eslint/eslint-plugin": "~3.6.0",
-    "@typescript-eslint/parser": "~3.6.0"
+    "@typescript-eslint/eslint-plugin": "~3.7.0",
+    "@typescript-eslint/parser": "~3.7.0"
   },
   "peerDependencies": {
     "eslint": "^7.0.0"
