@@ -2,9 +2,6 @@
 
 ```sh
 npm i @nighttrax/eslint-config-ts
-
-# https://github.com/eslint/eslint/issues/3458
-npm i @typescript-eslint/eslint-plugin
 ```
 
 

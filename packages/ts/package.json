@@ -1,6 +1,6 @@
 {
   "name": "@nighttrax/eslint-config-ts",
-  "version": "5.0.0-beta.2",
+  "version": "6.1.0",
   "publishConfig": {
     "access": "public"
   },
@@ -21,7 +21,7 @@
     "test": "../../test.sh mugshot ts"
   },
   "dependencies": {
-    "@nighttrax/eslint-config-base": "^4.0.0-beta.2",
+    "@nighttrax/eslint-config-base": "^5.1.0-beta.0",
     "@typescript-eslint/eslint-plugin": "~3.7.0",
     "@typescript-eslint/parser": "~3.7.0"
   },
