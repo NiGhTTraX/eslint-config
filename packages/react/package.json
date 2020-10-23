@@ -1,28 +1,28 @@
 {
-  "name": "@nighttrax/eslint-config-react",
-  "version": "4.0.1",
+  "name": "@brudi/eslint-config-react",
+  "version": "1.0.0",
   "publishConfig": {
     "access": "public"
   },
-  "description": "NiGhTTraX's ESLint config for React components",
+  "description": "brudi's ESLint config for React components",
   "keywords": [
     "eslint",
     "config",
     "react"
   ],
-  "author": "Andrei Picus <NiGhTTraX@users.noreply.github.com>",
+  "author": "Andrei Picus <brudi@users.noreply.github.com>",
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NiGhTTraX/eslint-config.git"
+    "url": "git+https://github.com/brudi/eslint-config.git"
   },
   "dependencies": {
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.16.0"
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.21.5"
   },
   "peerDependencies": {
-    "eslint": "^7.0.0"
+    "eslint": "^7.11.0"
   }
 }

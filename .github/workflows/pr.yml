@@ -1,0 +1,26 @@
+name: Review
+
+on:
+  pull_request:
+    paths-ignore:
+    - '**.md'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: Test against node 12
+    steps:
+
+    - uses: actions/checkout@v2
+
+    - name: Setup node
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12
+        registry-url: 'https://registry.npmjs.org'
+
+    - name: Install dependencies
+      run: yarn
+
+    - name: Test
+      run: yarn test

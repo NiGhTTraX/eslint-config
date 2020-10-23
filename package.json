@@ -1,14 +1,16 @@
 {
-  "name": "@nighttrax/eslint-config",
+  "name": "@brudi/eslint-config",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "pub": "lerna publish",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "update-version": "lerna version --no-git-tag-version --no-push --skip-npm --force-publish '*'",
+    "publish:next": "lerna publish --canary --preid next --dist-tag next --yes",
+    "publish:production": "lerna publish --dist-tag latest --conventional-commits --create-release=github --yes"
   },
   "devDependencies": {
-    "lerna": "~3.22.0"
+    "lerna": "~3.22.1"
   }
 }

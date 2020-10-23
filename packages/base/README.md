@@ -1,7 +1,7 @@
 ## Install
 
 ```sh
-npm i @nighttrax/eslint-config-base
+npm i @brudi/eslint-config-base
 ```
 
 
@@ -12,7 +12,7 @@ module.exports = {
   'root': true,
   
   'extends': [
-    '@nighttrax/eslint-config-base'
+    '@brudi/eslint-config-base'
   ]
 };
 ```

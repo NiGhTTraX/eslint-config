@@ -1,0 +1,8 @@
+{
+  "extends": [
+    "@brudi"
+  ],
+  "schedule": [
+    "at any time"
+  ]
+}

@@ -1,1 +1,6 @@
+# Share JetBrains run configurations only
+.idea/*
+!/.idea/runConfigurations
+
+# Dependencies
 node_modules
