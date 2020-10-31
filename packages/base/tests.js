@@ -3,7 +3,11 @@ module.exports = {
     '**/tests/**/*.js',
     '**/tests/**/*.jsx',
     '**/tests/**/*.ts',
-    '**/tests/**/*.tsx'
+    '**/tests/**/*.tsx',
+    '**/*.test.ts',
+    '**/*.spec.ts',
+    '**/*.test.tsx',
+    '**/*.spec.tsx',
   ],
   'rules': {
     'func-names': 0,
