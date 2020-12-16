@@ -1,6 +1,6 @@
 {
   "name": "@nighttrax/eslint-config-base",
-  "version": "5.1.1",
+  "version": "6.0.0",
   "publishConfig": {
     "access": "public"
   },
