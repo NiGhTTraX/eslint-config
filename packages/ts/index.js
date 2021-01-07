@@ -25,6 +25,9 @@ module.exports = {
     // ESLint doesn't understand interfaces yet and marks them as undefined.
     "no-undef": "off",
 
+    // Use the TS one instead.
+    "no-unused-vars": "off",
+
     // This is noisy while refactoring.
     "@typescript-eslint/no-unused-vars": "error",
 
