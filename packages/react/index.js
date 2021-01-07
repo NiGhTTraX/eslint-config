@@ -9,6 +9,9 @@ module.exports = {
   'rules': {
     // Prefer types.
     'react/prop-types': 'off',
+    // Prefer default arguments.
+    'react/require-default-props': 'off',
+
     'react/destructuring-assignment': 0,
     'react/jsx-filename-extension': ['error',
       { 'extensions': ['.tsx', '.jsx']
