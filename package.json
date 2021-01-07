@@ -6,6 +6,7 @@
   ],
   "scripts": {
     "pub": "lerna publish",
+    "bump": "lerna version",
     "test": "lerna run test"
   },
   "devDependencies": {
