@@ -10,12 +10,12 @@ module.exports = {
     // Prefer default arguments.
     "react/require-default-props": "off",
 
-    "react/destructuring-assignment": 0,
+    "react/destructuring-assignment": "off",
     "react/jsx-filename-extension": ["error", { extensions: [".tsx", ".jsx"] }],
-    "react/prefer-stateless-function": 0,
-    "react/jsx-no-bind": 0,
+    "react/prefer-stateless-function": "off",
+    "react/jsx-no-bind": "off",
     "react/sort-comp": [
-      2,
+      "error",
       {
         order: [
           "displayName",

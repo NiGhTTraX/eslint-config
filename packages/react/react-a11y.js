@@ -7,6 +7,6 @@ module.exports = {
     // (https://w3c.github.io/html/sec-forms.html#autofocusing-a-form-control-the-autofocus-attribute)
     // says that user agents should provide a way to disable autofocus
     // behaviour.
-    "jsx-a11y/no-autofocus": 0,
+    "jsx-a11y/no-autofocus": "off",
   },
 };

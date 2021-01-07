@@ -23,13 +23,13 @@ module.exports = {
 
   rules: {
     // ESLint doesn't understand interfaces yet and marks them as undefined.
-    "no-undef": 0,
+    "no-undef": "off",
 
     // This is noisy while refactoring.
-    "@typescript-eslint/no-unused-vars": 2,
+    "@typescript-eslint/no-unused-vars": "error",
 
     // Allow `constructor(private foo: number) {}`
-    "no-useless-constructor": 0,
+    "no-useless-constructor": "off",
     "no-empty-function": [
       "error",
       {
@@ -43,7 +43,7 @@ module.exports = {
       files: testOverrides.files,
       rules: {
         // Re-apply this override because we've customized the error above.
-        "no-empty-function": 0,
+        "no-empty-function": "off",
       },
     },
   ],

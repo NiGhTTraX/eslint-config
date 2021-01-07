@@ -10,12 +10,12 @@ module.exports = {
     "**/*.spec.tsx",
   ],
   rules: {
-    "func-names": 0,
-    "no-unused-expressions": 0,
-    "no-console": 0,
-    "no-empty-function": 0,
+    "func-names": "off",
+    "no-unused-expressions": "off",
+    "no-console": "off",
+    "no-empty-function": "off",
 
     // TODO: figure out how to lint these files for extra dev deps
-    "import/no-extraneous-dependencies": 0,
+    "import/no-extraneous-dependencies": "off",
   },
 };
