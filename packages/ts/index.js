@@ -30,7 +30,13 @@ module.exports = {
     "no-shadow": "off",
 
     // This is noisy while refactoring.
-    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        // Allow `let { ignored, ...rest} = foo`.
+        ignoreRestSiblings: true,
+      },
+    ],
 
     // Allow `constructor(private foo: number) {}`
     "no-useless-constructor": "off",
