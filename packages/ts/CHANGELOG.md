@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.0.2](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-ts@8.0.1...@nighttrax/eslint-config-ts@8.0.2) (2021-01-11)
+
+
+### Bug Fixes
+
+* **ts:** Disable flaky no-redeclare core rule ([1fad70d](https://github.com/NiGhTTraX/eslint-config/commit/1fad70dc60c5486cf03ea7a8b2a6efae813fafe6))
+
+
+
+
+
 ## [8.0.1](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-ts@8.0.0...@nighttrax/eslint-config-ts@8.0.1) (2021-01-08)
 
 
