@@ -28,6 +28,7 @@ module.exports = {
     // These core rules don't work well on TS code, use the ones from the plugin instead.
     "no-unused-vars": "off",
     "no-shadow": "off",
+    "no-redeclare": "off",
 
     // This is noisy while refactoring.
     "@typescript-eslint/no-unused-vars": [
