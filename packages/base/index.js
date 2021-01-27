@@ -40,6 +40,9 @@ module.exports = {
     "no-use-before-define": ["off", { functions: false }],
     "no-underscore-dangle": "off",
     "no-plusplus": "off",
+
+    // Enforce curly braces even for one liners.
+    curly: ["error", "all"],
   },
 
   overrides: [testOverrides],
