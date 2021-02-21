@@ -1,6 +1,6 @@
 {
   "name": "@nighttrax/eslint-config-ts",
-  "version": "8.0.3",
+  "version": "8.0.4",
   "publishConfig": {
     "access": "public"
   },
@@ -21,7 +21,7 @@
     "test": "../../test.sh mugshot ts"
   },
   "dependencies": {
-    "@nighttrax/eslint-config-base": "^7.1.0",
+    "@nighttrax/eslint-config-base": "^7.1.1",
     "@typescript-eslint/eslint-plugin": "~4.15.0",
     "@typescript-eslint/parser": "~4.15.0",
     "eslint-import-resolver-typescript": "~2.4.0"

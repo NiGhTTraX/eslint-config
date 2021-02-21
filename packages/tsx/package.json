@@ -1,6 +1,6 @@
 {
   "name": "@nighttrax/eslint-config-tsx",
-  "version": "8.0.4",
+  "version": "8.0.5",
   "publishConfig": {
     "access": "public"
   },
@@ -22,8 +22,8 @@
     "test": "../../test.sh tdd-buffet tsx"
   },
   "dependencies": {
-    "@nighttrax/eslint-config-react": "^6.0.0",
-    "@nighttrax/eslint-config-ts": "^8.0.3"
+    "@nighttrax/eslint-config-react": "^6.0.1",
+    "@nighttrax/eslint-config-ts": "^8.0.4"
   },
   "peerDependencies": {
     "eslint": "^7.0.0"
