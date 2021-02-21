@@ -1,9 +1,7 @@
 module.exports = {
-  extends: ["eslint-config-airbnb/rules/react"].map(require.resolve).concat([
-    // This disables all stylistic rules from the above.
-    "prettier/react",
-    "plugin:react-hooks/recommended",
-  ]),
+  extends: ["eslint-config-airbnb/rules/react"]
+    .map(require.resolve)
+    .concat(["plugin:react-hooks/recommended"]),
 
   rules: {
     // Prefer types.
