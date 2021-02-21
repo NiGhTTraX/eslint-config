@@ -1,11 +1,7 @@
 const testOverrides = require("@nighttrax/eslint-config-base/tests.js");
 
 module.exports = {
-  extends: [
-    "@nighttrax/eslint-config-base",
-    // This disables all stylistic rules from the above.
-    "prettier/@typescript-eslint",
-  ],
+  extends: ["@nighttrax/eslint-config-base"],
 
   parser: "@typescript-eslint/parser",
 
