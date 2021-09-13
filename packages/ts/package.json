@@ -24,7 +24,7 @@
     "@nighttrax/eslint-config-base": "^7.1.1",
     "@typescript-eslint/eslint-plugin": "~4.31.0",
     "@typescript-eslint/parser": "~4.31.0",
-    "eslint-import-resolver-typescript": "~2.4.0"
+    "eslint-import-resolver-typescript": "~2.5.0"
   },
   "peerDependencies": {
     "eslint": "^7.0.0"
