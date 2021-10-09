@@ -26,10 +26,10 @@
     "@nighttrax/eslint-config-ts": "^8.0.4"
   },
   "peerDependencies": {
-    "eslint": "^7.0.0"
+    "eslint": "^8.0.0"
   },
   "devDependencies": {
-    "eslint": "^7.0.0",
+    "eslint": "^8.0.0",
     "typescript": "^4.0.2"
   }
 }
