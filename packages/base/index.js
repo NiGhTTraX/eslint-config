@@ -17,10 +17,6 @@ module.exports = {
       "prettier",
     ]),
 
-  env: {
-    browser: true,
-  },
-
   plugins: ["prettier", "import"],
 
   rules: {

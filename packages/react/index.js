@@ -3,6 +3,10 @@ module.exports = {
     .map(require.resolve)
     .concat(["plugin:react-hooks/recommended"]),
 
+  env: {
+    browser: true,
+  },
+
   rules: {
     // Prefer types.
     "react/prop-types": "off",
