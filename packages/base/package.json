@@ -17,7 +17,7 @@
     "url": "git+https://github.com/NiGhTTraX/eslint-config.git"
   },
   "dependencies": {
-    "eslint-config-airbnb-base": "~14.2.1",
+    "eslint-config-airbnb-base": "~15.0.0",
     "eslint-config-prettier": "~8.3.0",
     "eslint-plugin-import": "~2.25.0",
     "eslint-plugin-prettier": "~4.0.0",
