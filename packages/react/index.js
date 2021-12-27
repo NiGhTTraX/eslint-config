@@ -42,5 +42,10 @@ module.exports = {
         ],
       },
     ],
+
+    // This is breaking a lot of my projects that use const Foo = () => {}. I
+    // haven't noticed any name inference problems with that pattern, so I'll
+    // leave this off for now.
+    "react/function-component-definition": "off",
   },
 };
