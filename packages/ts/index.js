@@ -43,6 +43,10 @@ module.exports = {
         allow: ["constructors"],
       },
     ],
+
+    // TS will take care of this, and the rule disallows the following _valid_ pattern:
+    // function(foo = 'bar', baz?: number) {}
+    "default-param-last": "off",
   },
 
   overrides: [
