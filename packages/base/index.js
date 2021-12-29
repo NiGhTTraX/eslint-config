@@ -1,8 +1,6 @@
 const testOverrides = require("./tests.js");
 
 module.exports = {
-  root: true,
-
   extends: [
     "eslint-config-airbnb-base/rules/best-practices",
     "eslint-config-airbnb-base/rules/errors",
@@ -17,7 +15,16 @@ module.exports = {
       "prettier",
     ]),
 
-  plugins: ["prettier", "import"],
+  plugins: ["prettier", "import", "@typescript-eslint"],
+
+  parser: "@typescript-eslint/parser",
+
+  settings: {
+    "import/resolver": {
+      // use <root>/tsconfig.json
+      typescript: {},
+    },
+  },
 
   rules: {
     "prettier/prettier": "error",
@@ -39,6 +46,36 @@ module.exports = {
 
     // Enforce curly braces even for one liners.
     curly: ["error", "all"],
+
+    // ESLint doesn't understand interfaces yet and marks them as undefined.
+    "no-undef": "off",
+
+    // These core rules don't work well on TS code, use the ones from the plugin instead.
+    "no-unused-vars": "off",
+    "no-shadow": "off",
+    "no-redeclare": "off",
+
+    // This is noisy while refactoring.
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        // Allow `let { ignored, ...rest} = foo`.
+        ignoreRestSiblings: true,
+      },
+    ],
+
+    // Allow `constructor(private foo: number) {}`
+    "no-useless-constructor": "off",
+    "no-empty-function": [
+      "error",
+      {
+        allow: ["constructors"],
+      },
+    ],
+
+    // TS will take care of this, and the rule disallows the following _valid_ pattern:
+    // function(foo = 'bar', baz?: number) {}
+    "default-param-last": "off",
   },
 
   overrides: [testOverrides],

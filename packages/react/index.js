@@ -14,7 +14,7 @@ module.exports = {
     "react/require-default-props": "off",
 
     "react/destructuring-assignment": "off",
-    "react/jsx-filename-extension": ["error", { extensions: [".tsx", ".jsx"] }],
+    "react/jsx-filename-extension": ["error", { extensions: [".tsx"] }],
     "react/prefer-stateless-function": "off",
     "react/jsx-no-bind": "off",
     "react/sort-comp": [

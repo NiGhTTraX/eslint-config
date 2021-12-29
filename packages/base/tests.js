@@ -1,7 +1,5 @@
 module.exports = {
   files: [
-    "**/tests/**/*.js",
-    "**/tests/**/*.jsx",
     "**/tests/**/*.ts",
     "**/tests/**/*.tsx",
     "**/*.test.ts",
