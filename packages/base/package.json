@@ -25,10 +25,5 @@
     "eslint": "^8.5.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-prettier": "^4.0.0"
-  },
-  "devDependencies": {
-    "eslint": "~8.5.0",
-    "eslint-plugin-import": "~2.25.3",
-    "eslint-plugin-prettier": "~4.0.0"
   }
 }
