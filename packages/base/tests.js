@@ -1,12 +1,5 @@
 module.exports = {
-  files: [
-    "**/tests/**/*.ts",
-    "**/tests/**/*.tsx",
-    "**/*.test.ts",
-    "**/*.spec.ts",
-    "**/*.test.tsx",
-    "**/*.spec.tsx",
-  ],
+  files: ["**/tests/**/*.{ts,tsx}", "**/*.(spec|test).{ts,tsx}"],
   rules: {
     "func-names": "off",
     "no-unused-expressions": "off",
