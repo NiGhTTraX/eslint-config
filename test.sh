@@ -8,13 +8,13 @@ PROJECT=$1
 CONFIG=$2
 
 cd packages/"$CONFIG"
-yarn link
+pnpm link
 
 cd /tmp
 rm -rf "$PROJECT"
 git clone https://github.com/NiGhTTraX/"$PROJECT".git || echo Repo already exists
 cd "$PROJECT"
 
-yarn install
-yarn link @nighttrax/eslint-config-"$CONFIG"
-yarn run lint
+pnpm install
+pnpm link @nighttrax/eslint-config-"$CONFIG"
+pnpm run lint
