@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@nighttrax/eslint-config-react": "^8.0.0-beta.0",
-    "@nighttrax/eslint-config-ts": "^10.0.0-beta.0",
+    "@nighttrax/eslint-config-base": "^9.0.0-beta.0",
     "@rushstack/eslint-patch": "~1.1.0",
     "@typescript-eslint/eslint-plugin": "~5.8.0",
     "@typescript-eslint/parser": "~5.8.0",
