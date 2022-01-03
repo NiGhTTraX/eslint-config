@@ -1,9 +1,14 @@
 module.exports = {
   files: [
-    "**/tests/**/*.{ts,tsx}",
-    "**/*.(spec|test).{ts,tsx}",
+    "**/tests/**/*.ts",
+    "**/tests/**/*.tsx",
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    "**/*.test.tsx",
+    "**/*.spec.tsx",
     "**/setupTests.ts",
-    "**/jest.config.{js,ts}",
+    "**/jest.config.js",
+    "**/jest.config.ts",
   ],
   rules: {
     "func-names": "off",
