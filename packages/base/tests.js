@@ -10,6 +10,7 @@ module.exports = {
     "no-unused-expressions": "off",
     "no-console": "off",
     "no-empty-function": "off",
+    "class-methods-use-this": "off",
 
     // TODO: figure out how to lint these files for extra dev deps
     "import/no-extraneous-dependencies": "off",
