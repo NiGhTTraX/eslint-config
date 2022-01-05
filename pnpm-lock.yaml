@@ -40,7 +40,7 @@ importers:
 
   packages/ts:
     specifiers:
-      '@nighttrax/eslint-config-base': ^9.0.0-beta.2
+      '@nighttrax/eslint-config-base': workspace:^9.0.0-beta.2
       '@rushstack/eslint-patch': ~1.1.0
       '@typescript-eslint/eslint-plugin': ~5.8.0
       '@typescript-eslint/parser': ~5.8.0
@@ -66,8 +66,8 @@ importers:
 
   packages/tsx:
     specifiers:
-      '@nighttrax/eslint-config-base': ^9.0.0-beta.2
-      '@nighttrax/eslint-config-react': ^8.0.0-beta.1
+      '@nighttrax/eslint-config-base': workspace:^9.0.0-beta.2
+      '@nighttrax/eslint-config-react': workspace:^8.0.0-beta.1
       '@rushstack/eslint-patch': ~1.1.0
       '@typescript-eslint/eslint-plugin': ~5.8.0
       '@typescript-eslint/parser': ~5.8.0
