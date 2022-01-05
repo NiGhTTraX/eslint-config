@@ -22,8 +22,8 @@
     "test": "../../test.sh tdd-buffet tsx"
   },
   "dependencies": {
-    "@nighttrax/eslint-config-base": "workspace:~",
-    "@nighttrax/eslint-config-react": "workspace:~",
+    "@nighttrax/eslint-config-base": "^9.0.0-beta.2",
+    "@nighttrax/eslint-config-react": "^8.0.0-beta.1",
     "@rushstack/eslint-patch": "~1.1.0",
     "@typescript-eslint/eslint-plugin": "~5.8.0",
     "@typescript-eslint/parser": "~5.8.0",
