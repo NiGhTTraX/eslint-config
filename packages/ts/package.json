@@ -23,8 +23,8 @@
   "dependencies": {
     "@nighttrax/eslint-config-base": "^9.0.0-beta.2",
     "@rushstack/eslint-patch": "~1.1.0",
-    "@typescript-eslint/eslint-plugin": "~5.15.0",
-    "@typescript-eslint/parser": "~5.15.0",
+    "@typescript-eslint/eslint-plugin": "~5.16.0",
+    "@typescript-eslint/parser": "~5.16.0",
     "eslint-import-resolver-typescript": "~2.5.0",
     "eslint-plugin-import": "~2.25.3",
     "eslint-plugin-jsx-a11y": "~6.5.1",
