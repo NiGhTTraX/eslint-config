@@ -29,14 +29,14 @@ importers:
       eslint-plugin-import: ~2.25.3
       eslint-plugin-jsx-a11y: ~6.5.1
       eslint-plugin-react: ~7.29.0
-      eslint-plugin-react-hooks: ~4.3.0
+      eslint-plugin-react-hooks: ~4.4.0
     dependencies:
-      eslint-config-airbnb: 19.0.4_7b1658f956c944aaade554ea4cb2c8a7
+      eslint-config-airbnb: 19.0.4_c1e7e10a8abf2d151b4a776f0c3ac314
     devDependencies:
       eslint-plugin-import: 2.25.3_eslint@8.11.0
       eslint-plugin-jsx-a11y: 6.5.1_eslint@8.11.0
       eslint-plugin-react: 7.29.0_eslint@8.11.0
-      eslint-plugin-react-hooks: 4.3.0_eslint@8.11.0
+      eslint-plugin-react-hooks: 4.4.0_eslint@8.11.0
 
   packages/ts:
     specifiers:
@@ -49,7 +49,7 @@ importers:
       eslint-plugin-jsx-a11y: ~6.5.1
       eslint-plugin-prettier: ~4.0.0
       eslint-plugin-react: ~7.29.0
-      eslint-plugin-react-hooks: ~4.3.0
+      eslint-plugin-react-hooks: ~4.4.0
       prettier: ~2.6.0
     dependencies:
       '@nighttrax/eslint-config-base': link:../base
@@ -61,7 +61,7 @@ importers:
       eslint-plugin-jsx-a11y: 6.5.1_eslint@8.11.0
       eslint-plugin-prettier: 4.0.0_eslint@8.11.0+prettier@2.6.0
       eslint-plugin-react: 7.29.0_eslint@8.11.0
-      eslint-plugin-react-hooks: 4.3.0_eslint@8.11.0
+      eslint-plugin-react-hooks: 4.4.0_eslint@8.11.0
       prettier: 2.6.0
 
   packages/tsx:
@@ -76,7 +76,7 @@ importers:
       eslint-plugin-jsx-a11y: ~6.5.1
       eslint-plugin-prettier: ~4.0.0
       eslint-plugin-react: ~7.29.0
-      eslint-plugin-react-hooks: ~4.3.0
+      eslint-plugin-react-hooks: ~4.4.0
       prettier: ~2.6.0
     dependencies:
       '@nighttrax/eslint-config-base': link:../base
@@ -89,7 +89,7 @@ importers:
       eslint-plugin-jsx-a11y: 6.5.1_eslint@8.11.0
       eslint-plugin-prettier: 4.0.0_eslint@8.11.0+prettier@2.6.0
       eslint-plugin-react: 7.29.0_eslint@8.11.0
-      eslint-plugin-react-hooks: 4.3.0_eslint@8.11.0
+      eslint-plugin-react-hooks: 4.4.0_eslint@8.11.0
       prettier: 2.6.0
 
 packages:
@@ -2046,7 +2046,7 @@ packages:
       semver: 6.3.0
     dev: false
 
-  /eslint-config-airbnb/19.0.4_7b1658f956c944aaade554ea4cb2c8a7:
+  /eslint-config-airbnb/19.0.4_c1e7e10a8abf2d151b4a776f0c3ac314:
     resolution: {integrity: sha512-T75QYQVQX57jiNgpF9r1KegMICE94VYwoFQyMGhrvc+lB8YF2E/M/PYDaQe1AJcWaEgqLE+ErXV1Og/+6Vyzew==}
     engines: {node: ^10.12.0 || ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -2061,7 +2061,7 @@ packages:
       eslint-plugin-import: 2.25.3_eslint@8.11.0
       eslint-plugin-jsx-a11y: 6.5.1_eslint@8.11.0
       eslint-plugin-react: 7.29.0_eslint@8.11.0
-      eslint-plugin-react-hooks: 4.3.0_eslint@8.11.0
+      eslint-plugin-react-hooks: 4.4.0_eslint@8.11.0
       object.assign: 4.1.2
       object.entries: 1.1.5
     dev: false
@@ -2164,8 +2164,8 @@ packages:
       prettier-linter-helpers: 1.0.0
     dev: false
 
-  /eslint-plugin-react-hooks/4.3.0_eslint@8.11.0:
-    resolution: {integrity: sha512-XslZy0LnMn+84NEG9jSGR6eGqaZB3133L8xewQo3fQagbQuGt7a63gf+P1NGKZavEYEC3UXaWEAA/AqDkuN6xA==}
+  /eslint-plugin-react-hooks/4.4.0_eslint@8.11.0:
+    resolution: {integrity: sha512-U3RVIfdzJaeKDQKEJbz5p3NW8/L80PCATJAfuojwbaEL+gBjfGdhUcGde+WGUW46Q5sr/NgxevsIiDtNXrvZaQ==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
