@@ -52,7 +52,7 @@ importers:
       eslint-import-resolver-typescript: ~3.2.0
       eslint-plugin-import: ~2.26.0
       eslint-plugin-jsx-a11y: ~6.6.0
-      eslint-plugin-prettier: ~4.1.0
+      eslint-plugin-prettier: ~4.2.0
       eslint-plugin-react: ~7.30.0
       eslint-plugin-react-hooks: ~4.6.0
       prettier: ~2.7.0
@@ -65,7 +65,7 @@ importers:
       eslint-import-resolver-typescript: 3.2.0_q2xwze32dd33a2fc2qubwr4ie4
       eslint-plugin-import: 2.26.0_mq37wenfjkrlffhtfqs25g2iqm
       eslint-plugin-jsx-a11y: 6.6.0_eslint@8.19.0
-      eslint-plugin-prettier: 4.1.0_osatmaxcotkc4wnherahx7dgiq
+      eslint-plugin-prettier: 4.2.1_osatmaxcotkc4wnherahx7dgiq
       eslint-plugin-react: 7.30.0_eslint@8.19.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.19.0
       prettier: 2.7.0
@@ -84,7 +84,7 @@ importers:
       eslint-import-resolver-typescript: ~3.2.0
       eslint-plugin-import: ~2.26.0
       eslint-plugin-jsx-a11y: ~6.6.0
-      eslint-plugin-prettier: ~4.1.0
+      eslint-plugin-prettier: ~4.2.0
       eslint-plugin-react: ~7.30.0
       eslint-plugin-react-hooks: ~4.6.0
       prettier: ~2.7.0
@@ -98,7 +98,7 @@ importers:
       eslint-import-resolver-typescript: 3.2.0_q2xwze32dd33a2fc2qubwr4ie4
       eslint-plugin-import: 2.26.0_mq37wenfjkrlffhtfqs25g2iqm
       eslint-plugin-jsx-a11y: 6.6.0_eslint@8.19.0
-      eslint-plugin-prettier: 4.1.0_osatmaxcotkc4wnherahx7dgiq
+      eslint-plugin-prettier: 4.2.1_osatmaxcotkc4wnherahx7dgiq
       eslint-plugin-react: 7.30.0_eslint@8.19.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.19.0
       prettier: 2.7.0
@@ -2450,8 +2450,8 @@ packages:
       minimatch: 3.1.2
       semver: 6.3.0
 
-  /eslint-plugin-prettier/4.1.0_osatmaxcotkc4wnherahx7dgiq:
-    resolution: {integrity: sha512-A3AXIEfTnq3D5qDFjWJdQ9c4BLhw/TqhSR+6+SVaoPJBAWciFEuJiNQh275OnjRrAi7yssZzuWBRw66VG2g6UA==}
+  /eslint-plugin-prettier/4.2.1_osatmaxcotkc4wnherahx7dgiq:
+    resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       eslint: '>=7.28.0'
