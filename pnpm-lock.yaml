@@ -49,7 +49,7 @@ importers:
       '@typescript-eslint/eslint-plugin': ~5.33.0
       '@typescript-eslint/parser': ~5.33.0
       eslint: ~8.21.0
-      eslint-import-resolver-typescript: ~3.3.0
+      eslint-import-resolver-typescript: ~3.4.0
       eslint-plugin-import: ~2.26.0
       eslint-plugin-jsx-a11y: ~6.6.0
       eslint-plugin-prettier: ~4.2.0
@@ -62,8 +62,8 @@ importers:
       '@rushstack/eslint-patch': 1.1.0
       '@typescript-eslint/eslint-plugin': 5.33.0_7ztpdpupy7oj3mq7gwr2t3i5o4
       '@typescript-eslint/parser': 5.33.0_vop3wml3iobydwkmmjaboen3ki
-      eslint-import-resolver-typescript: 3.3.0_jatgrcxl4x7ywe7ak6cnjca2ae
-      eslint-plugin-import: 2.26.0_tqgr5y2eyrdzmrdojczz4z7abq
+      eslint-import-resolver-typescript: 3.4.0_jatgrcxl4x7ywe7ak6cnjca2ae
+      eslint-plugin-import: 2.26.0_tlboh3qm7hqnfsrfagux266wdy
       eslint-plugin-jsx-a11y: 6.6.0_eslint@8.21.0
       eslint-plugin-prettier: 4.2.1_ocb7hrpjqdswjxtgmmg32gc7ni
       eslint-plugin-react: 7.30.0_eslint@8.21.0
@@ -81,7 +81,7 @@ importers:
       '@typescript-eslint/eslint-plugin': ~5.33.0
       '@typescript-eslint/parser': ~5.33.0
       eslint: ~8.21.0
-      eslint-import-resolver-typescript: ~3.3.0
+      eslint-import-resolver-typescript: ~3.4.0
       eslint-plugin-import: ~2.26.0
       eslint-plugin-jsx-a11y: ~6.6.0
       eslint-plugin-prettier: ~4.2.0
@@ -95,8 +95,8 @@ importers:
       '@rushstack/eslint-patch': 1.1.0
       '@typescript-eslint/eslint-plugin': 5.33.0_7ztpdpupy7oj3mq7gwr2t3i5o4
       '@typescript-eslint/parser': 5.33.0_vop3wml3iobydwkmmjaboen3ki
-      eslint-import-resolver-typescript: 3.3.0_jatgrcxl4x7ywe7ak6cnjca2ae
-      eslint-plugin-import: 2.26.0_tqgr5y2eyrdzmrdojczz4z7abq
+      eslint-import-resolver-typescript: 3.4.0_jatgrcxl4x7ywe7ak6cnjca2ae
+      eslint-plugin-import: 2.26.0_tlboh3qm7hqnfsrfagux266wdy
       eslint-plugin-jsx-a11y: 6.6.0_eslint@8.21.0
       eslint-plugin-prettier: 4.2.1_ocb7hrpjqdswjxtgmmg32gc7ni
       eslint-plugin-react: 7.30.0_eslint@8.21.0
@@ -2352,8 +2352,8 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /eslint-import-resolver-typescript/3.3.0_jatgrcxl4x7ywe7ak6cnjca2ae:
-    resolution: {integrity: sha512-vlooCGKfDX59rH5TbtluOekinPlIS5Ab+dyQUoCCJoE1IV11R/kn6J+RoMBuBkJhzJEIKJ4myQJhw6lGIXfkRA==}
+  /eslint-import-resolver-typescript/3.4.0_jatgrcxl4x7ywe7ak6cnjca2ae:
+    resolution: {integrity: sha512-rBCgiEovwX/HQ8ESWV+XIWZaFiRtDeAXNZdcTATB8UbMuadc9qfGOlIP+vy+c7nsgfEBN4NTwy5qunGNptDP0Q==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     peerDependencies:
       eslint: '*'
@@ -2362,7 +2362,7 @@ packages:
       debug: 4.3.4
       enhanced-resolve: 5.10.0
       eslint: 8.21.0
-      eslint-plugin-import: 2.26.0_tqgr5y2eyrdzmrdojczz4z7abq
+      eslint-plugin-import: 2.26.0_tlboh3qm7hqnfsrfagux266wdy
       get-tsconfig: 4.2.0
       globby: 13.1.2
       is-core-module: 2.9.0
@@ -2372,7 +2372,7 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-module-utils/2.7.3_fu4flovhcapm5zulfwzgg4ysg4:
+  /eslint-module-utils/2.7.3_3emebfo47ot2oz7c77gnbpvqsy:
     resolution: {integrity: sha512-088JEC7O3lDZM9xGe0RerkOMd0EjFl+Yvd1jPWIkMT5u3H9+HC34mWWPnqPrN13gieT9pBOO+Qt07Nb/6TresQ==}
     engines: {node: '>=4'}
     peerDependencies:
@@ -2393,7 +2393,7 @@ packages:
       '@typescript-eslint/parser': 5.33.0_vop3wml3iobydwkmmjaboen3ki
       debug: 3.2.7
       eslint-import-resolver-node: 0.3.6
-      eslint-import-resolver-typescript: 3.3.0_jatgrcxl4x7ywe7ak6cnjca2ae
+      eslint-import-resolver-typescript: 3.4.0_jatgrcxl4x7ywe7ak6cnjca2ae
       find-up: 2.1.0
     transitivePeerDependencies:
       - supports-color
@@ -2452,7 +2452,7 @@ packages:
       - eslint-import-resolver-webpack
       - supports-color
 
-  /eslint-plugin-import/2.26.0_tqgr5y2eyrdzmrdojczz4z7abq:
+  /eslint-plugin-import/2.26.0_tlboh3qm7hqnfsrfagux266wdy:
     resolution: {integrity: sha512-hYfi3FXaM8WPLf4S1cikh/r4IxnO6zrhZbEGz2b660EJRbuxgpDS5gkCuYgGWg2xxh2rBuIr4Pvhve/7c31koA==}
     engines: {node: '>=4'}
     peerDependencies:
@@ -2469,7 +2469,7 @@ packages:
       doctrine: 2.1.0
       eslint: 8.21.0
       eslint-import-resolver-node: 0.3.6
-      eslint-module-utils: 2.7.3_fu4flovhcapm5zulfwzgg4ysg4
+      eslint-module-utils: 2.7.3_3emebfo47ot2oz7c77gnbpvqsy
       has: 1.0.3
       is-core-module: 2.8.1
       is-glob: 4.0.3
