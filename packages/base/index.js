@@ -66,6 +66,9 @@ module.exports = {
 
     // Allow `constructor(private foo: number) {}`
     "no-useless-constructor": "off",
+    // Allow stateless class methods, instead of forcing them to be static.
+    "class-methods-use-this": 0,
+
     "no-empty-function": [
       "error",
       {
