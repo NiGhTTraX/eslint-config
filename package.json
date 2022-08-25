@@ -1,9 +1,6 @@
 {
   "name": "@nighttrax/eslint-config",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "pub": "lerna publish",
     "bump": "lerna version",
