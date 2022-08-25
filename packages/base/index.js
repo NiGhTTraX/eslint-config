@@ -76,6 +76,14 @@ module.exports = {
     // TS will take care of this, and the rule disallows the following _valid_ pattern:
     // function(foo = 'bar', baz?: number) {}
     "default-param-last": "off",
+
+    "padding-line-between-statements": [
+      "error",
+      { blankLine: "always", prev: "*", next: "return" },
+      { blankLine: "always", prev: "*", next: "block-like" },
+      { blankLine: "always", prev: "*", next: "if" },
+      { blankLine: "always", prev: "*", next: "export" },
+    ],
   },
 
   overrides: [testOverrides],
