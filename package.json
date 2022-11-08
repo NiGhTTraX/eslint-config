@@ -4,6 +4,7 @@
   "scripts": {
     "pub": "lerna publish from-package",
     "bump": "lerna version --conventional-commits",
+    "bump:major": "lerna version major",
     "test": "lerna run test"
   },
   "devDependencies": {
