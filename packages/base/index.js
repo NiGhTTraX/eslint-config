@@ -1,4 +1,5 @@
 const testOverrides = require("./tests.js");
+const configOverrides = require("./configs.js");
 
 module.exports = {
   extends: [
@@ -32,7 +33,7 @@ module.exports = {
     "import/no-extraneous-dependencies": [
       "error",
       {
-        devDependencies: testOverrides.files,
+        devDependencies: [...testOverrides.files, ...configOverrides.files],
       },
     ],
 
