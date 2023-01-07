@@ -14,6 +14,8 @@ module.exports = {
     .concat([
       // This disables all stylistic rules from the above.
       "prettier",
+
+      "plugin:@typescript-eslint/recommended",
     ]),
 
   plugins: ["prettier", "import", "@typescript-eslint"],
@@ -90,5 +92,13 @@ module.exports = {
     ],
   },
 
-  overrides: [testOverrides],
+  overrides: [
+    testOverrides,
+    {
+      files: ["**/*.js"],
+      rules: {
+        "@typescript-eslint/no-var-requires": "off",
+      },
+    },
+  ],
 };

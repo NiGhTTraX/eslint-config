@@ -17,6 +17,7 @@ module.exports = {
     "no-unused-expressions": "off",
     "no-console": "off",
     "no-empty-function": "off",
+    "@typescript-eslint/no-empty-function": "off",
     "class-methods-use-this": "off",
   },
 };
