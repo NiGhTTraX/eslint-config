@@ -90,6 +90,8 @@ module.exports = {
       { blankLine: "always", prev: "*", next: "if" },
       { blankLine: "always", prev: "*", next: "export" },
     ],
+
+    "@typescript-eslint/method-signature-style": "error",
   },
 
   overrides: [
