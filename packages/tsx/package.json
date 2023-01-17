@@ -22,7 +22,7 @@
     "test": "../../test.sh tdd-buffet tsx"
   },
   "dependencies": {
-    "@nighttrax/eslint-config-base": "^10.1.0",
+    "@nighttrax/eslint-config-base": "^10.0.0",
     "@nighttrax/eslint-config-react": "^9.1.0",
     "@rushstack/eslint-patch": "~1.2.0",
     "@typescript-eslint/eslint-plugin": "~5.48.0",
