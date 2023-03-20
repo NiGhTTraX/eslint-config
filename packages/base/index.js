@@ -72,12 +72,8 @@ module.exports = {
     // Allow stateless class methods, instead of forcing them to be static.
     "class-methods-use-this": 0,
 
-    "no-empty-function": [
-      "error",
-      {
-        allow: ["constructors"],
-      },
-    ],
+    // Replaced by the plugin.
+    "no-empty-function": "off",
 
     // TS will take care of this, and the rule disallows the following _valid_ pattern:
     // function(foo = 'bar', baz?: number) {}
