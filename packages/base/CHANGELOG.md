@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [11.0.0-alpha.1](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-base@11.0.0-alpha.0...@nighttrax/eslint-config-base@11.0.0-alpha.1) (2023-03-20)
+
+
+### Bug Fixes
+
+* **base:** Disable conflicting base rule ([ef48051](https://github.com/NiGhTTraX/eslint-config/commit/ef48051550e8c28de52459bc9a3d06a4111a304a))
+
+
+
+
+
 # [9.0.0](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-base@9.0.0-beta.2...@nighttrax/eslint-config-base@9.0.0) (2022-08-25)
 
 
