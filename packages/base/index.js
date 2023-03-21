@@ -87,6 +87,7 @@ module.exports = {
       { blankLine: "always", prev: "*", next: "export" },
     ],
 
+    // The strictFunctionTypes compiler flag only works if you define your methods properly.
     "@typescript-eslint/method-signature-style": "error",
   },
 
