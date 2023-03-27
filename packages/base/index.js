@@ -50,13 +50,20 @@ module.exports = {
     // Enforce curly braces even for one liners.
     curly: ["error", "all"],
 
-    // ESLint doesn't understand interfaces yet and marks them as undefined.
-    "no-undef": "off",
+    "padding-line-between-statements": [
+      "error",
+      { blankLine: "always", prev: "*", next: "return" },
+      { blankLine: "always", prev: "*", next: "block-like" },
+      { blankLine: "always", prev: "*", next: "if" },
+      { blankLine: "always", prev: "*", next: "export" },
+    ],
 
     // These core rules don't work well on TS code, use the ones from the plugin instead.
+    "no-undef": "off",
     "no-unused-vars": "off",
     "no-shadow": "off",
     "no-redeclare": "off",
+    "no-empty-function": "off",
 
     "@typescript-eslint/no-unused-vars": [
       "error",
@@ -68,23 +75,13 @@ module.exports = {
 
     // Allow `constructor(private foo: number) {}`
     "no-useless-constructor": "off",
+
     // Allow stateless class methods, instead of forcing them to be static.
     "class-methods-use-this": 0,
-
-    // Replaced by the plugin.
-    "no-empty-function": "off",
 
     // TS will take care of this, and the rule disallows the following _valid_ pattern:
     // function(foo = 'bar', baz?: number) {}
     "default-param-last": "off",
-
-    "padding-line-between-statements": [
-      "error",
-      { blankLine: "always", prev: "*", next: "return" },
-      { blankLine: "always", prev: "*", next: "block-like" },
-      { blankLine: "always", prev: "*", next: "if" },
-      { blankLine: "always", prev: "*", next: "export" },
-    ],
 
     // The strictFunctionTypes compiler flag only works if you define your methods properly.
     "@typescript-eslint/method-signature-style": "error",
