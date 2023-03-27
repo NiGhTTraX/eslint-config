@@ -58,7 +58,6 @@ module.exports = {
     "no-shadow": "off",
     "no-redeclare": "off",
 
-    // This is noisy while refactoring.
     "@typescript-eslint/no-unused-vars": [
       "error",
       {
