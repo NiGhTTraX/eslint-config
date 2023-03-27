@@ -9,7 +9,7 @@
     "test": "pnpm run -r test"
   },
   "devDependencies": {
-    "lerna": "~6.5.0",
+    "lerna": "~6.6.0",
     "eslint": "~8.36.0",
     "typescript": "~5.0.0"
   }
