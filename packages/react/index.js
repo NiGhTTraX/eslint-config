@@ -1,7 +1,7 @@
 module.exports = {
   extends: ["eslint-config-airbnb/rules/react"]
     .map(require.resolve)
-    .concat(["plugin:react-hooks/recommended"]),
+    .concat(["plugin:react-hooks/recommended", "plugin:react/recommended"]),
 
   env: {
     browser: true,
