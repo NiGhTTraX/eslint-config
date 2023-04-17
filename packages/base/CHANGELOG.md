@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [11.0.0-alpha.2](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-base@11.0.0-alpha.1...@nighttrax/eslint-config-base@11.0.0-alpha.2) (2023-04-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to ~8.8.0 ([a7d05e9](https://github.com/NiGhTTraX/eslint-config/commit/a7d05e91f1c98b5d8666a2a87c42763f58d32fa5))
+
+
+
+
+
 # [11.0.0-alpha.1](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-base@11.0.0-alpha.0...@nighttrax/eslint-config-base@11.0.0-alpha.1) (2023-03-20)
 
 

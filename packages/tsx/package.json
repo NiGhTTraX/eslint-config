@@ -1,6 +1,6 @@
 {
   "name": "@nighttrax/eslint-config-tsx",
-  "version": "12.0.0-alpha.2",
+  "version": "12.0.0-alpha.3",
   "publishConfig": {
     "access": "public"
   },
@@ -22,7 +22,7 @@
     "test": "../../test.sh tdd-buffet tsx"
   },
   "dependencies": {
-    "@nighttrax/eslint-config-base": "^11.0.0-alpha.1",
+    "@nighttrax/eslint-config-base": "^11.0.0-alpha.2",
     "@nighttrax/eslint-config-react": "^10.0.0-alpha.0",
     "@rushstack/eslint-patch": "~1.2.0",
     "@typescript-eslint/eslint-plugin": "~5.57.0",

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [12.0.0-alpha.3](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-ts@12.0.0-alpha.2...@nighttrax/eslint-config-ts@12.0.0-alpha.3) (2023-04-17)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to ~5.57.0 ([339bfcb](https://github.com/NiGhTTraX/eslint-config/commit/339bfcb1e325f4d3ce1dc4c614d6518d48113c18))
+
+
+
+
+
 # [12.0.0-alpha.2](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-ts@12.0.0-alpha.1...@nighttrax/eslint-config-ts@12.0.0-alpha.2) (2023-03-20)
 
 **Note:** Version bump only for package @nighttrax/eslint-config-ts

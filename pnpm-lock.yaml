@@ -61,7 +61,7 @@ importers:
   packages/ts:
     dependencies:
       '@nighttrax/eslint-config-base':
-        specifier: ^11.0.0-alpha.1
+        specifier: ^11.0.0-alpha.2
         version: link:../base
       '@rushstack/eslint-patch':
         specifier: ~1.2.0
@@ -104,7 +104,7 @@ importers:
   packages/tsx:
     dependencies:
       '@nighttrax/eslint-config-base':
-        specifier: ^11.0.0-alpha.1
+        specifier: ^11.0.0-alpha.2
         version: link:../base
       '@nighttrax/eslint-config-react':
         specifier: ^10.0.0-alpha.0
