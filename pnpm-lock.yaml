@@ -64,8 +64,8 @@ importers:
         specifier: ^10.0.0
         version: link:../base
       '@rushstack/eslint-patch':
-        specifier: ~1.2.0
-        version: 1.2.0
+        specifier: ~1.3.0
+        version: 1.3.0
       '@typescript-eslint/eslint-plugin':
         specifier: ~5.57.0
         version: 5.57.0(@typescript-eslint/parser@5.57.0)(eslint@8.36.0)(typescript@5.0.2)
@@ -110,8 +110,8 @@ importers:
         specifier: ^9.0.0
         version: link:../react
       '@rushstack/eslint-patch':
-        specifier: ~1.2.0
-        version: 1.2.0
+        specifier: ~1.3.0
+        version: 1.3.0
       '@typescript-eslint/eslint-plugin':
         specifier: ~5.57.0
         version: 5.57.0(@typescript-eslint/parser@5.57.0)(eslint@8.36.0)(typescript@5.0.2)
@@ -847,8 +847,8 @@ packages:
       tiny-glob: 0.2.9
       tslib: 2.4.0
 
-  /@rushstack/eslint-patch@1.2.0:
-    resolution: {integrity: sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==}
+  /@rushstack/eslint-patch@1.3.0:
+    resolution: {integrity: sha512-IthPJsJR85GhOkp3Hvp8zFOPK5ynKn6STyHa/WZpioK7E1aYDiBzpqQPrngc14DszIUkIrdd3k9Iu0XSzlP/1w==}
     dev: false
 
   /@sigstore/protobuf-specs@0.1.0:
