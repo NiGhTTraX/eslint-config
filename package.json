@@ -7,7 +7,6 @@
     "bump:major": "lerna version major",
     "bump:minor": "lerna version minor",
     "bump:prerelease": "lerna version premajor",
-    "test": "pnpm run -r test",
     "lint": "eslint ."
   },
   "devDependencies": {
