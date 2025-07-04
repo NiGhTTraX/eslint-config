@@ -1,6 +1,6 @@
 ## Intro
 
-My ESLint config for TS React projects. It uses https://www.npmjs.com/package/@rushstack/eslint-patch to bundle all necessary plugins.
+My ESLint config for TS+React projects.
 
 
 ## Install
@@ -13,10 +13,10 @@ npm i @nighttrax/eslint-config-tsx
 ## Use
 
 ```js
-module.exports = {
-  'root': true,
-  'extends': [
-    '@nighttrax/eslint-config-tsx',
-  ]
-};
+import { defineConfig } from "eslint/config";
+import { nighttraxReact } from "@nighttrax/eslint-config-tsx";
+
+export default defineConfig([
+  nighttraxReact
+]);
 ```

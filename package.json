@@ -7,11 +7,14 @@
     "bump:major": "lerna version major",
     "bump:minor": "lerna version minor",
     "bump:prerelease": "lerna version premajor",
-    "test": "pnpm run -r test"
+    "test": "pnpm run -r test",
+    "lint": "eslint ."
   },
   "devDependencies": {
     "lerna": "~6.6.0",
-    "eslint": "~8.36.0",
-    "typescript": "~5.0.0"
-  }
+    "eslint": "~9.30.1",
+    "prettier": "~3.6.2",
+    "typescript": "~5.8.3"
+  },
+  "packageManager": "pnpm@10.12.1"
 }
