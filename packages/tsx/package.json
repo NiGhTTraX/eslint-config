@@ -19,7 +19,7 @@
     "url": "git+https://github.com/NiGhTTraX/eslint-config.git"
   },
   "scripts": {
-    "test": "../../test.sh tdd-buffet tsx"
+    "test": "../../test.sh react-mock-component tsx"
   },
   "dependencies": {
     "@nighttrax/eslint-config-ts": "workspace:*",

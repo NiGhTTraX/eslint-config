@@ -18,7 +18,7 @@
     "url": "git+https://github.com/NiGhTTraX/eslint-config.git"
   },
   "scripts": {
-    "test": "../../test.sh mugshot ts"
+    "test": "../../test.sh strong-mock ts"
   },
   "dependencies": {
     "@eslint/js": "~9.30.1",
