@@ -13,7 +13,8 @@ export const nighttraxReact = tsEslint.config([
     languageOptions: { globals: globals.browser, parser: tsParser },
   },
 
-  pluginReact.configs.flat.all,
+  pluginReact.configs.flat.recommended,
+  pluginReact.configs.flat["jsx-runtime"],
   reactHooks.configs["recommended-latest"],
 
   {
@@ -23,7 +24,6 @@ export const nighttraxReact = tsEslint.config([
       },
     },
     rules: {
-      "react/react-in-jsx-scope": "off",
       "react/display-name": "off",
       "react/prefer-read-only-props": "off",
       "react/function-component-definition": "off",
