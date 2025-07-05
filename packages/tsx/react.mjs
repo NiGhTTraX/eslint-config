@@ -1,8 +1,9 @@
 import globals from "globals";
 import tsEslint from "typescript-eslint";
 import * as tsParser from "@typescript-eslint/parser";
-import pluginReact from "eslint-plugin-react";
+import * as react from "eslint-plugin-react";
 import * as reactHooks from "eslint-plugin-react-hooks";
+import * as jsxA11y from "eslint-plugin-jsx-a11y";
 import { nighttraxTS } from "@nighttrax/eslint-config-ts";
 
 export const nighttraxReact = tsEslint.config([
@@ -13,9 +14,10 @@ export const nighttraxReact = tsEslint.config([
     languageOptions: { globals: globals.browser, parser: tsParser },
   },
 
-  pluginReact.configs.flat.recommended,
-  pluginReact.configs.flat["jsx-runtime"],
+  react.configs.flat.recommended,
+  react.configs.flat["jsx-runtime"],
   reactHooks.configs["recommended-latest"],
+  jsxA11y.flatConfigs.recommended,
 
   {
     settings: {
@@ -40,12 +42,6 @@ export const nighttraxReact = tsEslint.config([
       "react/no-unused-prop-types": "off",
       "react/forbid-component-props": "off",
       "react/hook-use-state": "off",
-
-      // Autofocus is said to disorient users with cognitive disabilities.
-      // However, the same spec
-      // (https://w3c.github.io/html/sec-forms.html#autofocusing-a-form-control-the-autofocus-attribute)
-      // says that user agents should provide a way to disable autofocus behavior.
-      "jsx-a11y/no-autofocus": "off",
     },
   },
 ]);
