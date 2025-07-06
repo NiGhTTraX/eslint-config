@@ -4,7 +4,7 @@ import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended"
 import * as pluginImportX from "eslint-plugin-import-x";
 import * as tsParser from "@typescript-eslint/parser";
 
-const EXTENSIONS = "{js,mjs,cjs,ts,jsx,tsx}";
+const EXTENSIONS = "{js,mjs,cjs,ts,cts,mts,jsx,tsx}";
 
 export const nighttraxTS = tsEslint.config([
   {
