@@ -1,9 +1,9 @@
 import globals from "globals";
 import tsEslint from "typescript-eslint";
 import * as tsParser from "@typescript-eslint/parser";
-import * as react from "eslint-plugin-react";
+import react from "eslint-plugin-react";
+import jsxA11y from "eslint-plugin-jsx-a11y";
 import * as reactHooks from "eslint-plugin-react-hooks";
-import * as jsxA11y from "eslint-plugin-jsx-a11y";
 import { nighttraxTS } from "@nighttrax/eslint-config-ts";
 
 export const nighttraxReact = tsEslint.config([

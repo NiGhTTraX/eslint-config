@@ -1,4 +1,4 @@
 import { defineConfig } from "eslint/config";
-import { nighttraxTS } from "./packages/ts/typescript.mjs";
+import { nighttraxReact } from "./packages/tsx/react.mjs";
 
-export default defineConfig([nighttraxTS]);
+export default defineConfig([nighttraxReact]);
