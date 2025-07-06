@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [12.0.0-beta.1](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-ts@12.0.0-beta.0...@nighttrax/eslint-config-ts@12.0.0-beta.1) (2025-07-06)
+
+### Features
+
+- **ts:** Add more globs for dev deps ([2e6e9e7](https://github.com/NiGhTTraX/eslint-config/commit/2e6e9e7044c81a16da1f2e248d0e8933963fa8f4))
+
 # [12.0.0-beta.0](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-ts@12.0.0-alpha.3...@nighttrax/eslint-config-ts@12.0.0-beta.0) (2025-07-04)
 
 **Note:** Version bump only for package @nighttrax/eslint-config-ts

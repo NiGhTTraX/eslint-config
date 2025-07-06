@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [12.0.0-beta.1](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-tsx@12.0.0-beta.0...@nighttrax/eslint-config-tsx@12.0.0-beta.1) (2025-07-06)
+
+### Features
+
+- **react:** Add a11y rules ([bd825d0](https://github.com/NiGhTTraX/eslint-config/commit/bd825d0f0ab75caba1dff3b4d93a44b45ae7748b))
+- **react:** Don't enable stylistic React rules ([4a1d5e1](https://github.com/NiGhTTraX/eslint-config/commit/4a1d5e1a17a70e8cc2f9aa7bb74fbb19eff76b59))
+
 # [12.0.0-beta.0](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-tsx@12.0.0-alpha.3...@nighttrax/eslint-config-tsx@12.0.0-beta.0) (2025-07-04)
 
 **Note:** Version bump only for package @nighttrax/eslint-config-tsx
