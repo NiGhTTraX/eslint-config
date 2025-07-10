@@ -13,10 +13,9 @@ npm i @nighttrax/eslint-config-ts
 ## Use
 
 ```js
-import { defineConfig } from "eslint/config";
 import { nighttraxTS } from "@nighttrax/eslint-config-ts";
 
-export default defineConfig([
-  nighttraxTS
+export default nighttraxTS([
+  // other configs
 ]);
 ```
