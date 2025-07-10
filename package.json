@@ -2,7 +2,7 @@
   "name": "@nighttrax/eslint-config",
   "private": true,
   "scripts": {
-    "pub": "lerna publish from-package",
+    "pub": "pnpm -r publish",
     "bump": "lerna version --conventional-commits",
     "bump:major": "lerna version major",
     "bump:minor": "lerna version minor",
