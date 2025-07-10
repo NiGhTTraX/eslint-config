@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [12.0.0-beta.2](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-ts@12.0.0-beta.1...@nighttrax/eslint-config-ts@12.0.0-beta.2) (2025-07-10)
+
+### Features
+
+- **ts,tsx:** Export config helpers ([ae77cda](https://github.com/NiGhTTraX/eslint-config/commit/ae77cdacf76e80427b0e8fcc5618622d83c0b21b))
+- **ts:** Include more ts extensions ([6191739](https://github.com/NiGhTTraX/eslint-config/commit/6191739d5bfaf727d0e56858c5636b4f5fbe61a9))
+
 # [12.0.0-beta.1](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-ts@12.0.0-beta.0...@nighttrax/eslint-config-ts@12.0.0-beta.1) (2025-07-06)
 
 ### Features
