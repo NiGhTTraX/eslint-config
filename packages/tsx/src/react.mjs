@@ -34,6 +34,7 @@ export const nighttraxReact = (...configs) =>
           {
             eventHandlerPrefix: "on",
             eventHandlerPropPrefix: "on",
+            checkLocalVariables: true,
           },
         ],
         "react/jsx-no-leaked-render": "error",

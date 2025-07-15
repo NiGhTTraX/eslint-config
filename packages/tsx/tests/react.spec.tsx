@@ -8,11 +8,19 @@ const WithProps = (props: {
   label: string;
   loading?: boolean;
   handleSubmit: () => void;
-}) => (
-  // eslint-disable-next-line react/jsx-handler-names
-  <button onClick={props.handleSubmit}>
-    {props.label}
-    {/* eslint-disable-next-line react/jsx-no-leaked-render */}
-    {props.loading && " ..."}
-  </button>
-);
+}) => {
+  const foo = () => {};
+
+  return (
+    <button
+      // eslint-disable-next-line react/jsx-handler-names
+      onClick={props.handleSubmit}
+      // eslint-disable-next-line react/jsx-handler-names
+      onToggle={foo}
+    >
+      {props.label}
+      {/* eslint-disable-next-line react/jsx-no-leaked-render */}
+      {props.loading && " ..."}
+    </button>
+  );
+};
