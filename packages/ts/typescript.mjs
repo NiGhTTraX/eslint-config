@@ -1,5 +1,5 @@
 import pluginJs from "@eslint/js";
-import tsEslint from "typescript-eslint";
+import * as tsEslint from "typescript-eslint";
 import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
 import * as pluginImportX from "eslint-plugin-import-x";
 import * as tsParser from "@typescript-eslint/parser";
@@ -43,9 +43,6 @@ export const nighttraxTS = (...configs) =>
 
     {
       rules: {
-        // TypeScript should report incorrect imports.
-        "import-x/no-named-as-default-member": "off",
-        "import-x/namespace": "off",
         "import-x/no-extraneous-dependencies": [
           "error",
           {
@@ -58,7 +55,7 @@ export const nighttraxTS = (...configs) =>
               `**/.storybook/preview.${EXTENSIONS}`,
               `**/eslint.config.${EXTENSIONS}`,
               `**/*.{spec,test}.${EXTENSIONS}`,
-              "**/tests/**",
+              "**/tests/**/*",
             ],
           },
         ],
@@ -67,7 +64,6 @@ export const nighttraxTS = (...configs) =>
 
     {
       rules: {
-        "@typescript-eslint/no-explicit-any": "warn",
         "@typescript-eslint/consistent-type-imports": "error",
         "@typescript-eslint/no-unused-vars": [
           "error",
