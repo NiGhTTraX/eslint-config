@@ -68,6 +68,7 @@ export const nighttraxTS = (...configs) =>
               `**/eslint.config.${EXTENSIONS}`,
               `**/*.{spec,test}.${EXTENSIONS}`,
               "**/tests/**/*",
+              "**/stories.tsx",
             ],
           },
         ],
