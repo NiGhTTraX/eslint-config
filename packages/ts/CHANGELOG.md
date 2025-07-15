@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [12.0.0-beta.5](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-ts@12.0.0-beta.4...@nighttrax/eslint-config-ts@12.0.0-beta.5) (2025-07-15)
+
+### Bug Fixes
+
+- **ts:** Fix stories glob ([ba2d857](https://github.com/NiGhTTraX/eslint-config/commit/ba2d8572fce3ca7c9f6c82bfdd6030d5524819e2))
+
 # [12.0.0-beta.4](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-ts@12.0.0-beta.3...@nighttrax/eslint-config-ts@12.0.0-beta.4) (2025-07-15)
 
 ### Bug Fixes
