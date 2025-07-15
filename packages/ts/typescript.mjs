@@ -11,6 +11,11 @@ const EXTENSIONS = "{js,mjs,cjs,ts,cts,mts,jsx,tsx}";
  */
 export const nighttraxTS = (...configs) =>
   tsEslint.config([
+    {
+      linterOptions: {
+        reportUnusedDisableDirectives: "error",
+      },
+    },
     { ignores: ["**/dist/"] },
     {
       files: [`**/*.${EXTENSIONS}`],
