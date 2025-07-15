@@ -30,22 +30,23 @@ export const nighttraxReact = (...configs) =>
         },
       },
       rules: {
+        // This usually warns for memoized or forwardRef-ed components, which is fine.
         "react/display-name": "off",
-        "react/prefer-read-only-props": "off",
-        "react/function-component-definition": "off",
-        "react/no-multi-comp": "off",
-        "react/jsx-filename-extension": "off",
-        "react/jsx-max-depth": "off",
-        "react/jsx-no-bind": "off",
-        "react/require-default-props": "off",
-        "react/jsx-sort-props": "off",
-        "react/jsx-no-literals": "off", // TODO: enable for translations
-        "react/destructuring-assignment": "off",
-        "react/jsx-props-no-spreading": "off",
-        "react/jsx-handler-names": "off",
-        "react/no-unused-prop-types": "off",
-        "react/forbid-component-props": "off",
-        "react/hook-use-state": "off",
+        "react/function-component-definition": [
+          "error",
+          {
+            namedComponents: "arrow-function",
+            unnamedComponents: "arrow-function",
+          },
+        ],
+        "react/jsx-handler-names": [
+          "error",
+          {
+            eventHandlerPrefix: "on",
+            eventHandlerPropPrefix: "on",
+          },
+        ],
+        "react/jsx-no-leaked-render": "error",
       },
     },
 
