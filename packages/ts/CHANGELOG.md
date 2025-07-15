@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [12.0.0-beta.3](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-ts@12.0.0-beta.2...@nighttrax/eslint-config-ts@12.0.0-beta.3) (2025-07-15)
+
+### Bug Fixes
+
+- **ts:** Report errors from incorrect default imports ([238a87a](https://github.com/NiGhTTraX/eslint-config/commit/238a87a7b340f8bcae45aac01ecaf59d234b64e8))
+
+### Features
+
+- **ts,tsx:** Add a default ignore list ([ec4f3a8](https://github.com/NiGhTTraX/eslint-config/commit/ec4f3a89047d3a23c4f19248799e4c0625517c1b))
+- **ts:** Report unused `eslint-disable` directives ([e58fe64](https://github.com/NiGhTTraX/eslint-config/commit/e58fe6489343520812e698c58121bf788b7a6fe1))
+
 # [12.0.0-beta.2](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-ts@12.0.0-beta.1...@nighttrax/eslint-config-ts@12.0.0-beta.2) (2025-07-10)
 
 ### Features

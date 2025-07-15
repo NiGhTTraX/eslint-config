@@ -1,6 +1,6 @@
 {
   "name": "@nighttrax/eslint-config-tsx",
-  "version": "12.0.0-beta.2",
+  "version": "12.0.0-beta.3",
   "publishConfig": {
     "access": "public"
   },
@@ -14,7 +14,9 @@
   "author": "Andrei Picus <NiGhTTraX@users.noreply.github.com>",
   "license": "MIT",
   "main": "src/react.mjs",
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NiGhTTraX/eslint-config.git"
