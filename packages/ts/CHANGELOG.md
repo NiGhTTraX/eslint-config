@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [12.0.0-beta.4](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-ts@12.0.0-beta.3...@nighttrax/eslint-config-ts@12.0.0-beta.4) (2025-07-15)
+
+### Bug Fixes
+
+- **ts:** Turn off no-undef after removing globals ([7243a76](https://github.com/NiGhTTraX/eslint-config/commit/7243a7643de08961b0a9c9c0598d128f45b8cc6d))
+
+### Features
+
+- **ts:** Handle dev deps for stories ([d8ed0e3](https://github.com/NiGhTTraX/eslint-config/commit/d8ed0e31009e12ee50223922671710c24ab5696f))
+
 # [12.0.0-beta.3](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-ts@12.0.0-beta.2...@nighttrax/eslint-config-ts@12.0.0-beta.3) (2025-07-15)
 
 ### Bug Fixes

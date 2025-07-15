@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [12.0.0-beta.4](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-tsx@12.0.0-beta.3...@nighttrax/eslint-config-tsx@12.0.0-beta.4) (2025-07-15)
+
+### Features
+
+- **react:** Enforce naming for local event handlers ([a908d53](https://github.com/NiGhTTraX/eslint-config/commit/a908d53d8626faf03fb39635e9c7b9b5a76b28f3))
+
 # [12.0.0-beta.3](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-tsx@12.0.0-beta.2...@nighttrax/eslint-config-tsx@12.0.0-beta.3) (2025-07-15)
 
 **Note:** Version bump only for package @nighttrax/eslint-config-tsx
