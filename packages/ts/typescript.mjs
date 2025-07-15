@@ -3,6 +3,7 @@ import * as tsEslint from "typescript-eslint";
 import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
 import * as pluginImportX from "eslint-plugin-import-x";
 import * as tsParser from "@typescript-eslint/parser";
+import stylistic from "@stylistic/eslint-plugin";
 
 const EXTENSIONS = "{js,mjs,cjs,ts,cts,mts,jsx,tsx}";
 
@@ -22,6 +23,12 @@ export const nighttraxTS = (...configs) =>
       languageOptions: { parser: tsParser },
     },
 
+    {
+      plugins: {
+        "@stylistic": stylistic,
+      },
+    },
+
     pluginJs.configs.recommended,
     tsEslint.configs.recommended,
     eslintPluginPrettierRecommended,
@@ -33,7 +40,7 @@ export const nighttraxTS = (...configs) =>
         "arrow-body-style": ["error", "as-needed"],
         "object-shorthand": "error",
         curly: ["error", "all"],
-        "padding-line-between-statements": [
+        "@stylistic/padding-line-between-statements": [
           "error",
           { blankLine: "always", prev: "*", next: "return" },
           { blankLine: "always", prev: "*", next: "block-like" },
