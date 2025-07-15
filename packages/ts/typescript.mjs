@@ -77,6 +77,10 @@ export const nighttraxTS = (...configs) =>
 
     {
       rules: {
+        // This is already turned off for TS files,
+        // but leaving it on for JS requires globals, e.g., module.exports,
+        // which is not worth the effort.
+        "no-undef": "off",
         "@typescript-eslint/consistent-type-imports": "error",
         "@typescript-eslint/no-unused-vars": [
           "error",
