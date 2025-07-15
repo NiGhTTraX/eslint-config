@@ -29,14 +29,6 @@ export const nighttraxReact = (...configs) =>
             unnamedComponents: "arrow-function",
           },
         ],
-        "react/jsx-handler-names": [
-          "error",
-          {
-            eventHandlerPrefix: "on",
-            eventHandlerPropPrefix: "on",
-            checkLocalVariables: true,
-          },
-        ],
         "react/jsx-no-leaked-render": "error",
       },
     },

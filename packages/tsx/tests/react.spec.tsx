@@ -12,12 +12,7 @@ const WithProps = (props: {
   const foo = () => {};
 
   return (
-    <button
-      // eslint-disable-next-line react/jsx-handler-names
-      onClick={props.handleSubmit}
-      // eslint-disable-next-line react/jsx-handler-names
-      onToggle={foo}
-    >
+    <button onClick={props.handleSubmit}>
       {props.label}
       {/* eslint-disable-next-line react/jsx-no-leaked-render */}
       {props.loading && " ..."}
