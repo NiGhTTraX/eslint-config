@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [12.0.0-beta.6](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-tsx@12.0.0-beta.5...@nighttrax/eslint-config-tsx@12.0.0-beta.6) (2025-07-17)
+
+### Features
+
+- **react:** Add more rules ([6f7fdde](https://github.com/NiGhTTraX/eslint-config/commit/6f7fdde84242dee26853d4d53b9d527ae834d2e8))
+- **ts,react:** Parametrize configs ([f13060f](https://github.com/NiGhTTraX/eslint-config/commit/f13060ff3529fc041488f1b7d23cb2c42f8fe5ed))
+
 # [12.0.0-beta.5](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-tsx@12.0.0-beta.4...@nighttrax/eslint-config-tsx@12.0.0-beta.5) (2025-07-15)
 
 **Note:** Version bump only for package @nighttrax/eslint-config-tsx
