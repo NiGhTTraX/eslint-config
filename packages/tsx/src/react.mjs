@@ -40,6 +40,11 @@ export const nighttraxReact = (
             },
           ],
           "react/jsx-no-leaked-render": "error",
+          "react/jsx-boolean-value": ["error", "never"],
+          "react/forward-ref-uses-ref": "error",
+          "react/jsx-no-useless-fragment": "error",
+          "react/jsx-fragments": "error",
+          "react/jsx-curly-brace-presence": "error",
         },
       },
 
