@@ -1,6 +1,6 @@
 ## Intro
 
-My ESLint config for TS projects. It uses https://www.npmjs.com/package/@rushstack/eslint-patch to bundle all necessary plugins.
+My ESLint config for TS projects.
 
 
 ## Install
@@ -13,10 +13,9 @@ npm i @nighttrax/eslint-config-ts
 ## Use
 
 ```js
-module.exports = {
-  'root': true,
-  'extends': [
-    '@nighttrax/eslint-config-ts',
-  ]
-};
+import { nighttraxTS } from "@nighttrax/eslint-config-ts";
+
+export default nighttraxTS([
+  // other configs
+]);
 ```

@@ -2,7 +2,7 @@
   "extends": [
     "config:base"
   ],
-  "rangeStrategy": "replace",
+  "rangeStrategy": "auto",
   "automerge": true,
   "automergeType": "branch"
 }
