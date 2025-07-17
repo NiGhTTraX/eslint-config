@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.0.1](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-ts@12.0.0...@nighttrax/eslint-config-ts@12.0.1) (2025-07-17)
+
+### Bug Fixes
+
+- **deps:** update dependency @stylistic/eslint-plugin to ~5.2.0 ([2c105ea](https://github.com/NiGhTTraX/eslint-config/commit/2c105eab72250704c4abb4d8b06ce407283a249a))
+- **deps:** update eslint monorepo to ~9.31.0 ([9251058](https://github.com/NiGhTTraX/eslint-config/commit/925105802c9e6bca8b3802e515055659008e99df))
+- **deps:** update typescript-eslint monorepo to ~8.37.0 ([68b3063](https://github.com/NiGhTTraX/eslint-config/commit/68b3063420b683d75197c02ba55c0642d2b7468c))
+
 # [12.0.0-beta.6](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-ts@12.0.0-beta.5...@nighttrax/eslint-config-ts@12.0.0-beta.6) (2025-07-17)
 
 ### Features
