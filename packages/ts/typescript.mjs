@@ -69,6 +69,8 @@ export const nighttraxTS = (...configs) =>
               `**/.storybook/main.${EXTENSIONS}`,
               `**/.storybook/preview.${EXTENSIONS}`,
               `**/*.stories.${EXTENSIONS}`,
+              `metro.config.${EXTENSIONS}`,
+              `app.config.${EXTENSIONS}`,
             ],
           },
         ],
