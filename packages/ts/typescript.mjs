@@ -5,19 +5,27 @@ import * as pluginImportX from "eslint-plugin-import-x";
 import * as tsParser from "@typescript-eslint/parser";
 import stylistic from "@stylistic/eslint-plugin";
 
-const EXTENSIONS = "{js,mjs,cjs,ts,cts,mts,jsx,tsx}";
+export const EXTENSIONS = "{js,mjs,cjs,ts,cts,mts,jsx,tsx}";
 
 /**
- * @param {import('typescript-eslint').InfiniteDepthConfigWithExtends[]} configs
+ * @param {import('typescript-eslint').InfiniteDepthConfigWithExtends[]} [configs]
+ *
+ * @param {object} opts
+ * @param {string[]} [opts.ignores] A list of globs that will be ignored.
+ * @param {string[]} [opts.devDeps] A list of globs that will be matched for
+ *   the `import-x/no-extraneous-dependencies` rule's `devDependencies` option.
  */
-export const nighttraxTS = (...configs) =>
+export const nighttraxTS = (
+  configs = [],
+  { devDeps = [], ignores = [] } = {},
+) =>
   tsEslint.config([
     {
       linterOptions: {
         reportUnusedDisableDirectives: "error",
       },
     },
-    { ignores: ["**/dist/"] },
+    { ignores: ["**/dist/", ...ignores] },
     {
       files: [`**/*.${EXTENSIONS}`],
       languageOptions: { parser: tsParser },
@@ -59,18 +67,12 @@ export const nighttraxTS = (...configs) =>
           "error",
           {
             devDependencies: [
-              `**/webpack.config.${EXTENSIONS}`,
-              `**/rollup.config.${EXTENSIONS}`,
-              `**/vite.config.${EXTENSIONS}`,
-              `**/vitest.config.${EXTENSIONS}`,
+              `**/{webpack,rollup,vite,vitest}.config.${EXTENSIONS}`,
               `**/eslint.config.${EXTENSIONS}`,
               `**/*.{spec,test}.${EXTENSIONS}`,
               "**/tests/**/*",
-              `**/.storybook/main.${EXTENSIONS}`,
-              `**/.storybook/preview.${EXTENSIONS}`,
-              `**/*.stories.${EXTENSIONS}`,
-              `metro.config.${EXTENSIONS}`,
-              `app.config.${EXTENSIONS}`,
+
+              ...devDeps,
             ],
           },
         ],
