@@ -25,7 +25,7 @@ export const nighttraxTS = (
         reportUnusedDisableDirectives: "error",
       },
     },
-    { ignores: ["**/dist/", ...ignores] },
+    { ignores: ["**/dist/", "tests/results/", ...ignores] },
     {
       files: [`**/*.${EXTENSIONS}`],
       languageOptions: { parser: tsParser },
