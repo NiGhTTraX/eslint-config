@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@eslint/config-inspector':
-        specifier: ~1.1.0
-        version: 1.1.0(eslint@9.33.0)
+        specifier: ~1.2.0
+        version: 1.2.0(eslint@9.33.0)
       eslint:
         specifier: ~9.33.0
         version: 9.33.0
@@ -266,8 +266,8 @@ packages:
     resolution: {integrity: sha512-xR93k9WhrDYpXHORXpxVL5oHj3Era7wo6k/Wd8/IsQNnZUTzkGS29lyn3nAT05v6ltUuTFVCCYDEGfy2Or/sPA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@eslint/config-inspector@1.1.0':
-    resolution: {integrity: sha512-DQGzRGV6jKujyxxCPlhwwyzq3HTW/NbFX9A4npPjW0+0A3KemxYJWZdwqJn4rauPsRUpJ8yuh5uOyMCChrnFsg==}
+  '@eslint/config-inspector@1.2.0':
+    resolution: {integrity: sha512-PrM+dN45JTsZ7Zv7f2ElMAsf2eyrdNZWwMj2w43c3SBOE2jsl7eJVOTvbSrz1D+JzYF7eBNdx0hhvcCLRwhiCQ==}
     hasBin: true
     peerDependencies:
       eslint: ^8.50.0 || ^9.0.0
@@ -3595,7 +3595,7 @@ snapshots:
 
   '@eslint/config-helpers@0.3.1': {}
 
-  '@eslint/config-inspector@1.1.0(eslint@9.33.0)':
+  '@eslint/config-inspector@1.2.0(eslint@9.33.0)':
     dependencies:
       '@nodelib/fs.walk': 3.0.1
       ansis: 4.1.0
