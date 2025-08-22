@@ -18,7 +18,7 @@
     "url": "git+https://github.com/NiGhTTraX/eslint-config.git"
   },
   "dependencies": {
-    "@eslint/js": "~9.33.0",
+    "@eslint/js": "~9.34.0",
     "@stylistic/eslint-plugin": "~5.2.0",
     "@typescript-eslint/parser": "~8.40.0",
     "eslint-config-prettier": "~10.1.5",
