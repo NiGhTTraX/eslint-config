@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.0.2](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-ts@12.0.1...@nighttrax/eslint-config-ts@12.0.2) (2025-08-31)
+
+### Bug Fixes
+
+- **deps:** update eslint monorepo to ~9.32.0 ([10c21d0](https://github.com/NiGhTTraX/eslint-config/commit/10c21d0de3fc4bed41b37edbca497a2c90924d93))
+- **deps:** update eslint monorepo to ~9.33.0 ([0eb8159](https://github.com/NiGhTTraX/eslint-config/commit/0eb8159ec5d756087b9d4fad9db7cf35cb3b64dc))
+- **deps:** update eslint monorepo to ~9.34.0 ([e58714c](https://github.com/NiGhTTraX/eslint-config/commit/e58714cbd3e1066b3e51df3c67cdd7281ba2bb5b))
+- **deps:** update typescript-eslint monorepo to ~8.38.0 ([64dc82c](https://github.com/NiGhTTraX/eslint-config/commit/64dc82ce785a0fdd12fa4fe8c5aa47c4c778d301))
+- **deps:** update typescript-eslint monorepo to ~8.39.0 ([29b28b0](https://github.com/NiGhTTraX/eslint-config/commit/29b28b04a60dae5a6cb137e2a9909ba2ab2d69c5))
+- **deps:** update typescript-eslint monorepo to ~8.40.0 ([93a3773](https://github.com/NiGhTTraX/eslint-config/commit/93a3773e05af51fca779eac6eb8e4a80df04f56c))
+- **deps:** update typescript-eslint monorepo to ~8.41.0 ([f78ade0](https://github.com/NiGhTTraX/eslint-config/commit/f78ade04fcc6d0d2f2a0be301e44dbae43711bbd))
+
 ## [12.0.1](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-ts@12.0.0...@nighttrax/eslint-config-ts@12.0.1) (2025-07-17)
 
 ### Bug Fixes
