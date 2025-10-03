@@ -1,6 +1,7 @@
 import react from "eslint-plugin-react";
 import jsxA11y from "eslint-plugin-jsx-a11y";
 import * as reactHooks from "eslint-plugin-react-hooks";
+import reactYouMightNotNeedAnEffect from "eslint-plugin-react-you-might-not-need-an-effect";
 import { EXTENSIONS, nighttraxTS } from "@nighttrax/eslint-config-ts";
 
 /**
@@ -22,6 +23,7 @@ export const nighttraxReact = (
       react.configs.flat["jsx-runtime"],
       reactHooks.configs["recommended-latest"],
       jsxA11y["flatConfigs"].recommended,
+      reactYouMightNotNeedAnEffect.configs.recommended,
 
       {
         settings: {
