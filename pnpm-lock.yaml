@@ -67,7 +67,7 @@ importers:
         version: 6.1.1(eslint@9.37.0)
       eslint-plugin-react-you-might-not-need-an-effect:
         specifier: ~0.5.1
-        version: 0.5.5(eslint@9.37.0)
+        version: 0.5.6(eslint@9.37.0)
     devDependencies:
       '@types/react':
         specifier: ~19.2.0
@@ -1755,8 +1755,8 @@ packages:
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
 
-  eslint-plugin-react-you-might-not-need-an-effect@0.5.5:
-    resolution: {integrity: sha512-Zmsqf7hk/fC5ThgEZTsNz9nHTJ+GFD2/lp/ESSL6oMwQdTlIduTm7xbu8iCZ902aH7HsGTKNw+vi+GVQ6RA8JQ==}
+  eslint-plugin-react-you-might-not-need-an-effect@0.5.6:
+    resolution: {integrity: sha512-WZe5XlnsqempwyyLOrVMJWnA9yHC6TxibCwQyz4o9NfGKOh9svoydld10sFfaLVIOi+yO8G7BfYuOmZ6DCRuTw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       eslint: '>=8.40.0'
@@ -5719,7 +5719,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-react-you-might-not-need-an-effect@0.5.5(eslint@9.37.0):
+  eslint-plugin-react-you-might-not-need-an-effect@0.5.6(eslint@9.37.0):
     dependencies:
       eslint: 9.37.0
       eslint-utils: 3.0.0(eslint@9.37.0)
