@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+
+    "strict": true,
+    "skipLibCheck": true,
+
+    "jsx": "react-jsx"
+  }
+}
