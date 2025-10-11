@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [12.2.0](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-tsx@12.1.0...@nighttrax/eslint-config-tsx@12.2.0) (2025-10-11)
+
+### Features
+
+- Upgrade plugin-react-hooks ([432cfe6](https://github.com/NiGhTTraX/eslint-config/commit/432cfe6dc8703f5b0c99873f9097edbf6cc4f5a7))
+
 # [12.1.0](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-tsx@12.0.2...@nighttrax/eslint-config-tsx@12.1.0) (2025-10-03)
 
 ### Features
