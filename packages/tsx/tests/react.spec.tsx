@@ -13,7 +13,7 @@ const WithProps = forwardRef(
 
     // eslint-disable-next-line react-you-might-not-need-an-effect/no-reset-all-state-on-prop-change
     useEffect(() => {
-      // eslint-disable-next-line react-you-might-not-need-an-effect/no-derived-state
+      // eslint-disable-next-line react-you-might-not-need-an-effect/no-derived-state,react-hooks/set-state-in-effect
       setBar(props.label);
     }, [props.label]);
 
