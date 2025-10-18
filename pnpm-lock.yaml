@@ -30,8 +30,8 @@ importers:
         specifier: ~9.37.0
         version: 9.37.0
       '@stylistic/eslint-plugin':
-        specifier: ~5.4.0
-        version: 5.4.0(eslint@9.37.0)
+        specifier: ~5.5.0
+        version: 5.5.0(eslint@9.37.0)
       '@typescript-eslint/parser':
         specifier: ~8.46.0
         version: 8.46.1(eslint@9.37.0)(typescript@5.9.3)
@@ -841,8 +841,8 @@ packages:
   '@sinclair/typebox@0.34.41':
     resolution: {integrity: sha512-6gS8pZzSXdyRHTIqoqSVknxolr1kzfy4/CeDnrzsVz8TTIWUbOBr6gnzOmTYJ3eXQNh4IYHIGi5aIL7sOZ2G/g==}
 
-  '@stylistic/eslint-plugin@5.4.0':
-    resolution: {integrity: sha512-UG8hdElzuBDzIbjG1QDwnYH0MQ73YLXDFHgZzB4Zh/YJfnw8XNsloVtytqzx0I2Qky9THSdpTmi8Vjn/pf/Lew==}
+  '@stylistic/eslint-plugin@5.5.0':
+    resolution: {integrity: sha512-IeZF+8H0ns6prg4VrkhgL+yrvDXWDH2cKchrbh80ejG9dQgZWp10epHMbgRuQvgchLII/lfh6Xn3lu6+6L86Hw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=9.0.0'
@@ -923,10 +923,6 @@ packages:
 
   '@typescript-eslint/types@8.37.0':
     resolution: {integrity: sha512-ax0nv7PUF9NOVPs+lmQ7yIE7IQmAf8LGcXbMvHX5Gm+YJUYNAl340XkGnrimxZ0elXyoQJuN5sbg6C4evKA4SQ==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-
-  '@typescript-eslint/types@8.44.0':
-    resolution: {integrity: sha512-ZSl2efn44VsYM0MfDQe68RKzBz75NPgLQXuGypmym6QVOWL5kegTZuZ02xRAT9T+onqvM6T8CdQk0OwYMB6ZvA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@typescript-eslint/types@8.46.1':
@@ -4725,10 +4721,10 @@ snapshots:
 
   '@sinclair/typebox@0.34.41': {}
 
-  '@stylistic/eslint-plugin@5.4.0(eslint@9.37.0)':
+  '@stylistic/eslint-plugin@5.5.0(eslint@9.37.0)':
     dependencies:
       '@eslint-community/eslint-utils': 4.9.0(eslint@9.37.0)
-      '@typescript-eslint/types': 8.44.0
+      '@typescript-eslint/types': 8.46.1
       eslint: 9.37.0
       eslint-visitor-keys: 4.2.1
       espree: 10.4.0
@@ -4830,8 +4826,6 @@ snapshots:
       - supports-color
 
   '@typescript-eslint/types@8.37.0': {}
-
-  '@typescript-eslint/types@8.44.0': {}
 
   '@typescript-eslint/types@8.46.1': {}
 
