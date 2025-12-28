@@ -47,6 +47,9 @@ export const nighttraxReact = (
           "react/jsx-no-useless-fragment": "error",
           "react/jsx-fragments": "error",
           "react/jsx-curly-brace-presence": "error",
+
+          // Produces some false positives, plus it seems to be covered by react-hooks/set-state-in-effect.
+          "react-you-might-not-need-an-effect/no-derived-state": "off",
         },
       },
 
