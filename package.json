@@ -13,7 +13,7 @@
   "devDependencies": {
     "@eslint/config-inspector": "~1.4.0",
     "lerna": "~9.0.0",
-    "eslint": "~9.39.0",
+    "eslint": "~10.0.0",
     "prettier": "~3.8.0",
     "typescript": "~5.9.0"
   },
