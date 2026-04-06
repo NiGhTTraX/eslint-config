@@ -1,8 +1,23 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
   ],
   "rangeStrategy": "auto",
   "automerge": true,
-  "automergeType": "branch"
+  "automergeType": "branch",
+  "semanticCommits": "enabled",
+  "separateMajorMinor": true,
+  "packageRules": [
+    {
+      "matchPackageNames": ["typescript", "eslint", "prettier"],
+      "matchUpdateTypes": ["major"],
+      "commitMessageAction": "Support",
+      "commitMessageTopic": "{{depName}}",
+      "commitMessageExtra": "{{prettyNewMajor}}",
+      "semanticCommitType": "feat",
+      "semanticCommitScope": null,
+      "commitMessageLowerCase": "never"
+    }
+  ]
 }
