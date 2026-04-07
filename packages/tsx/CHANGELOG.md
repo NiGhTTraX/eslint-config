@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [12.4.0](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-tsx@12.3.0...@nighttrax/eslint-config-tsx@12.4.0) (2026-04-07)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-react-you-might-not-need-an-effect to ~0.9.0 ([bc54cb3](https://github.com/NiGhTTraX/eslint-config/commit/bc54cb3904fa605316e270f3e68d044ac0be11c5))
+
+### Features
+
+- Support typescript v6 ([42200ce](https://github.com/NiGhTTraX/eslint-config/commit/42200ce88c5925e98dad524c6fe8b4a0839ee7bc))
+
 # [12.2.0](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-tsx@12.1.0...@nighttrax/eslint-config-tsx@12.2.0) (2025-10-11)
 
 ### Features
