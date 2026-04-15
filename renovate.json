@@ -10,7 +10,7 @@
   "separateMajorMinor": true,
   "packageRules": [
     {
-      "matchPackageNames": ["typescript", "eslint", "prettier"],
+      "matchDepNames": ["typescript", "eslint", "prettier"],
       "matchUpdateTypes": ["major"],
       "commitMessageAction": "Support",
       "commitMessageTopic": "{{depName}}",
