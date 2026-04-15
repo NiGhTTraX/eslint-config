@@ -12,6 +12,7 @@
     {
       "matchDepNames": ["typescript", "eslint", "prettier"],
       "matchUpdateTypes": ["major"],
+      "groupName": null,
       "commitMessageAction": "Support",
       "commitMessageTopic": "{{depName}}",
       "commitMessageExtra": "{{prettyNewMajor}}",
