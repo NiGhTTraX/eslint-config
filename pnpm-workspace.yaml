@@ -1,4 +1,8 @@
 packages:
   - 'packages/**'
-strictPeerDependencies: true
+allowBuilds:
+  esbuild: false
+  nx: false
+  unrs-resolver: false
 autoInstallPeers: false
+strictPeerDependencies: true
