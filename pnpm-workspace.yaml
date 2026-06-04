@@ -6,3 +6,4 @@ allowBuilds:
   unrs-resolver: false
 autoInstallPeers: false
 strictPeerDependencies: true
+minimumReleaseAgeStrict: true
