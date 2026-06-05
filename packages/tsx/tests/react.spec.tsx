@@ -1,40 +1,78 @@
-import { forwardRef, Fragment, useEffect, useState } from "react";
+import { forwardRef, Fragment, useEffect, useMemo, useState } from "react";
 
-// eslint-disable-next-line react/function-component-definition
+// eslint-disable-next-line @eslint-react/kit/function-component-definition
 function NamedComponent() {
   return <span>Hello</span>;
 }
 
-const WithProps = forwardRef(
-  // eslint-disable-next-line react/forward-ref-uses-ref
-  (props: { initial: number; loading?: boolean }) => {
-    const [count, setCount] = useState(props.initial);
+function NotAComponent() {
+  return 42;
+}
 
-    useEffect(() => {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
-      setCount(props.initial);
-    }, [props.initial]);
+type Props = {
+  initial: number;
+  // eslint-disable-next-line @eslint-react/no-unused-props
+  loading?: boolean;
+  count: number;
+};
 
-    const increment = () => {
-      setCount((p) => p + 1);
-    };
+// eslint-disable-next-line @eslint-react/no-forward-ref
+const WithProps = forwardRef((props: Props) => {
+  const [count, setCount] = useState(props.initial);
 
-    return (
-      <button
-        onClick={increment}
-        // eslint-disable-next-line react/jsx-boolean-value
-        disabled={true}
-        // eslint-disable-next-line react/jsx-curly-brace-presence
-        className={"foo"}
-      >
-        {/* eslint-disable-next-line react/jsx-no-useless-fragment,react/jsx-fragments */}
-        <Fragment>{count}</Fragment>
-        {/* eslint-disable-next-line react/jsx-no-leaked-render */}
-        {props.loading && " ..."}
-      </button>
-    );
-  },
-);
+  useEffect(() => {
+    // eslint-disable-next-line @eslint-react/set-state-in-effect
+    setCount(props.initial);
+  }, [props.initial]);
 
-// This is just to silence the unused-vars warnings.
-console.log(WithProps, NamedComponent);
+  useEffect(() => {
+    console.log(props.count);
+    // eslint-disable-next-line @eslint-react/exhaustive-deps
+  }, []);
+
+  // eslint-disable-next-line @eslint-react/use-memo
+  useMemo(
+    () => props.count + 1,
+    // eslint-disable-next-line @eslint-react/exhaustive-deps
+    [],
+  );
+
+  const increment = () => {
+    setCount((p) => p + 1);
+  };
+
+  return (
+    <button
+      type="button"
+      onClick={increment}
+      //eslint-disable-next-line @stylistic/jsx-shorthand-boolean
+      disabled={true}
+      //eslint-disable-next-line @stylistic/jsx-curly-brace-presence
+      className={"foo"}
+    >
+      {/* eslint-disable-next-line @stylistic/jsx-shorthand-fragment,@eslint-react/jsx-no-useless-fragment */}
+      <Fragment>{count}</Fragment>
+      {/* eslint-disable-next-line @eslint-react/no-leaked-conditional-rendering */}
+      {props.count && " ..."}
+    </button>
+  );
+});
+
+const Dropdown = (props: {
+  items: string[];
+  onChange: (value: string) => void;
+}) => {
+  const [selected] = useState(props.items[0]);
+
+  useEffect(() => {
+    // eslint-disable-next-line @no-effect/no-pass-live-state-to-parent
+    props.onChange(selected);
+    // The plugin wants the entire `props` object, see
+    // https://github.com/facebook/react/issues/16265#issuecomment-517518539
+    // eslint-disable-next-line @eslint-react/exhaustive-deps
+  }, [props.onChange, selected]);
+
+  return null;
+};
+
+console.log(WithProps, NamedComponent, NotAComponent, Dropdown);

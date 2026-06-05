@@ -22,14 +22,15 @@
     "url": "git+https://github.com/NiGhTTraX/eslint-config.git"
   },
   "dependencies": {
+    "@eslint-react/eslint-plugin": "~5.8.12",
+    "@eslint-react/kit": "~5.8.12",
     "@nighttrax/eslint-config-ts": "workspace:*",
-    "eslint-plugin-jsx-a11y": "~6.10.2",
-    "eslint-plugin-react": "~7.37.5",
-    "eslint-plugin-react-hooks": "~7.1.0",
-    "eslint-plugin-react-you-might-not-need-an-effect": "~0.10.0"
+    "@typescript-eslint/utils": "~8.60.1",
+    "eslint-plugin-react-you-might-not-need-an-effect": "~1.0.0",
+    "typescript-eslint": "~8.60.1"
   },
   "peerDependencies": {
-    "eslint": "^9.0.0",
+    "eslint": "^10.0.0",
     "prettier": "^3.0.0",
     "typescript": "^5.0.0 || ^6.0.0"
   },

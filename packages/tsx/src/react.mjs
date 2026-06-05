@@ -1,8 +1,8 @@
-import react from "eslint-plugin-react";
-import jsxA11y from "eslint-plugin-jsx-a11y";
-import reactHooks from "eslint-plugin-react-hooks";
-import reactYouMightNotNeedAnEffect from "eslint-plugin-react-you-might-not-need-an-effect";
+import react from "@eslint-react/eslint-plugin";
+import eslintReactKit from "@eslint-react/kit";
 import { EXTENSIONS, nighttraxTS } from "@nighttrax/eslint-config-ts";
+import reactYouMightNotNeedAnEffect from "eslint-plugin-react-you-might-not-need-an-effect";
+import { functionComponentDefinition } from "./rules/function-component-definition.mts";
 
 /**
  * @param {import('typescript-eslint').InfiniteDepthConfigWithExtends[]} [configs]
@@ -19,37 +19,25 @@ export const nighttraxReact = (
 ) =>
   nighttraxTS(
     [
-      react.configs.flat.recommended,
-      react.configs.flat["jsx-runtime"],
-      reactHooks.configs.flat["recommended-latest"],
-      jsxA11y["flatConfigs"].recommended,
-      reactYouMightNotNeedAnEffect.configs.recommended,
+      react.configs["strict-type-checked"],
+      eslintReactKit().use(functionComponentDefinition).getConfig(),
 
       {
+        plugins: {
+          "@no-effect": reactYouMightNotNeedAnEffect,
+        },
         settings: {
-          react: {
+          "react-x": {
             version,
           },
         },
         rules: {
-          // This usually warns for memoized or forwardRef-ed components, which is fine.
-          "react/display-name": "off",
-          "react/function-component-definition": [
-            "error",
-            {
-              namedComponents: "arrow-function",
-              unnamedComponents: "arrow-function",
-            },
-          ],
-          "react/jsx-no-leaked-render": "error",
-          "react/jsx-boolean-value": ["error", "never"],
-          "react/forward-ref-uses-ref": "error",
-          "react/jsx-no-useless-fragment": "error",
-          "react/jsx-fragments": "error",
-          "react/jsx-curly-brace-presence": "error",
+          "@stylistic/jsx-curly-brace-presence": "error",
+          "@stylistic/jsx-shorthand-boolean": "error",
+          "@stylistic/jsx-shorthand-fragment": "error",
 
-          // Produces some false positives, plus it seems to be covered by react-hooks/set-state-in-effect.
-          "react-you-might-not-need-an-effect/no-derived-state": "off",
+          "@no-effect/no-pass-live-state-to-parent": "error",
+          "@no-effect/no-event-handler": "error",
         },
       },
 
