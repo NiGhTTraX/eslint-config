@@ -4,6 +4,7 @@ import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended"
 import * as pluginImportX from "eslint-plugin-import-x";
 import * as tsParser from "@typescript-eslint/parser";
 import stylistic from "@stylistic/eslint-plugin";
+import { defineConfig } from "eslint/config";
 
 export const EXTENSIONS = "{js,mjs,cjs,ts,cts,mts,jsx,tsx}";
 
@@ -19,7 +20,7 @@ export const nighttraxTS = (
   configs = [],
   { devDeps = [], ignores = [] } = {},
 ) =>
-  tsEslint.config([
+  defineConfig([
     {
       linterOptions: {
         reportUnusedDisableDirectives: "error",
