@@ -29,7 +29,12 @@ export const nighttraxTS = (
     { ignores: ["**/dist/", "tests/results/", ...ignores] },
     {
       files: [`**/*.${EXTENSIONS}`],
-      languageOptions: { parser: tsParser },
+      languageOptions: {
+        parser: tsParser,
+        parserOptions: {
+          projectService: true,
+        },
+      },
     },
 
     {

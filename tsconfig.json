@@ -1,10 +1,8 @@
 {
-  "compilerOptions": {
-    "module": "NodeNext",
-
-    "strict": true,
-    "skipLibCheck": true,
-
-    "jsx": "react-jsx"
-  }
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.eslint.json" },
+    { "path": "./packages/ts/tsconfig.json" },
+    { "path": "./packages/tsx/tsconfig.json" }
+  ]
 }
