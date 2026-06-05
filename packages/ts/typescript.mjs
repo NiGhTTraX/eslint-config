@@ -44,7 +44,7 @@ export const nighttraxTS = (
     },
 
     pluginJs.configs.recommended,
-    tsEslint.configs.recommended,
+    tsEslint.configs.recommendedTypeChecked,
     eslintPluginPrettierRecommended,
     pluginImportX.flatConfigs.recommended,
     pluginImportX.flatConfigs.typescript,
