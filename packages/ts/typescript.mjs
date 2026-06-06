@@ -44,8 +44,12 @@ export const nighttraxTS = (
     },
 
     pluginJs.configs.recommended,
+
     tsEslint.configs.recommendedTypeChecked,
+    tsEslint.configs.stylisticTypeChecked,
+
     eslintPluginPrettierRecommended,
+
     pluginImportX.flatConfigs.recommended,
     pluginImportX.flatConfigs.typescript,
 
@@ -92,6 +96,7 @@ export const nighttraxTS = (
         // which is not worth the effort.
         "no-undef": "off",
         "@typescript-eslint/consistent-type-imports": "error",
+        "@typescript-eslint/consistent-type-definitions": "off",
         "@typescript-eslint/no-unused-vars": [
           "error",
           {
