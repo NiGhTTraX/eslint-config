@@ -4,7 +4,7 @@ async function test(foo: number) {
   throw foo;
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+// eslint-disable-next-line @typescript-eslint/no-explicit-any,no-unassigned-vars
 let x: any;
 
 // eslint-disable-next-line @typescript-eslint/no-floating-promises,@typescript-eslint/no-unsafe-argument
