@@ -86,6 +86,12 @@ export const nighttraxTS = (
             ],
           },
         ],
+        "import-x/order": [
+          "error",
+          {
+            groups: ["builtin", "external", "parent", "sibling"],
+          },
+        ],
       },
     },
 
