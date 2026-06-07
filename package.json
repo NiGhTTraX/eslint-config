@@ -1,6 +1,7 @@
 {
   "name": "@nighttrax/eslint-config",
   "private": true,
+  "type": "module",
   "scripts": {
     "inspect": "config-inspector",
     "pub": "pnpm -r publish",

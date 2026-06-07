@@ -12,7 +12,8 @@
   ],
   "author": "Andrei Picus <NiGhTTraX@users.noreply.github.com>",
   "license": "MIT",
-  "main": "typescript.mjs",
+  "type": "module",
+  "exports": "./typescript.mjs",
   "files": [
     "typescript.mjs"
   ],
