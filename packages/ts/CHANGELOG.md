@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.1.1](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-ts@13.1.0...@nighttrax/eslint-config-ts@13.1.1) (2026-06-07)
+
+### Bug Fixes
+
+- **ts:** Fix peer dep issue ([d7696a8](https://github.com/NiGhTTraX/eslint-config/commit/d7696a8930a989d335007758839f39bec16f9211))
+
 # [12.2.0](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-ts@12.1.0...@nighttrax/eslint-config-ts@12.2.0) (2026-04-07)
 
 ### Bug Fixes

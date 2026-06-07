@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.1.1](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-tsx@13.1.0...@nighttrax/eslint-config-tsx@13.1.1) (2026-06-07)
+
+**Note:** Version bump only for package @nighttrax/eslint-config-tsx
+
 # [12.4.0](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-tsx@12.3.0...@nighttrax/eslint-config-tsx@12.4.0) (2026-04-07)
 
 ### Bug Fixes
