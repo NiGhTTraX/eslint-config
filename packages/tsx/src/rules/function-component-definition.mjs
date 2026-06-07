@@ -1,9 +1,11 @@
-import type { RuleFunction } from "@eslint-react/kit";
 import { merge } from "@eslint-react/kit";
 import { AST_NODE_TYPES } from "@typescript-eslint/utils";
 
-/** Enforce arrow function definitions for function components. */
-export function functionComponentDefinition(): RuleFunction {
+/**
+ * Enforce arrow function definitions for function components.
+ * @returns {import("@eslint-react/kit").RuleFunction}
+ */
+export function functionComponentDefinition() {
   return (context, { collect, hint }) => {
     const { query, visitor } = collect.components(context, {
       hint:

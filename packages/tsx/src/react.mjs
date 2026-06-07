@@ -2,7 +2,7 @@ import react from "@eslint-react/eslint-plugin";
 import eslintReactKit from "@eslint-react/kit";
 import { EXTENSIONS, nighttraxTS } from "@nighttrax/eslint-config-ts";
 import reactYouMightNotNeedAnEffect from "eslint-plugin-react-you-might-not-need-an-effect";
-import { functionComponentDefinition } from "./rules/function-component-definition.mts";
+import { functionComponentDefinition } from "./rules/function-component-definition.mjs";
 
 /**
  * @param {import('typescript-eslint').InfiniteDepthConfigWithExtends[]} [configs]
