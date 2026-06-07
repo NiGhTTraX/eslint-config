@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.1.2](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-tsx@13.1.1...@nighttrax/eslint-config-tsx@13.1.2) (2026-06-07)
+
+### Bug Fixes
+
+- **tsx:** Fix type stripping for consumers ([40457b9](https://github.com/NiGhTTraX/eslint-config/commit/40457b9d137469c4405207993a62689bed382cc5))
+
 ## [13.1.1](https://github.com/NiGhTTraX/eslint-config/compare/@nighttrax/eslint-config-tsx@13.1.0...@nighttrax/eslint-config-tsx@13.1.1) (2026-06-07)
 
 **Note:** Version bump only for package @nighttrax/eslint-config-tsx
