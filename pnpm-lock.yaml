@@ -62,9 +62,6 @@ importers:
       '@nighttrax/eslint-config-ts':
         specifier: workspace:*
         version: link:../ts
-      '@typescript-eslint/utils':
-        specifier: ~8.62.1
-        version: 8.62.1(eslint@10.5.0(jiti@2.7.0))(typescript@6.0.3)
       eslint-plugin-react-you-might-not-need-an-effect:
         specifier: ~1.0.0
         version: 1.0.1(eslint@10.5.0(jiti@2.7.0))

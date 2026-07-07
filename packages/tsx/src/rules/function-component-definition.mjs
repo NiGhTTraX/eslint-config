@@ -1,5 +1,4 @@
 import { merge } from "@eslint-react/kit";
-import { AST_NODE_TYPES } from "@typescript-eslint/utils";
 
 /**
  * Enforce arrow function definitions for function components.
@@ -17,8 +16,13 @@ export function functionComponentDefinition() {
       "Program:exit"(program) {
         // ─── Iterate all components ────────────────────
         for (const { node } of query.all(program)) {
+          // The enum type comes from `@typescript-eslint/utils`, which needs to
+          // be at a version compatible with `@eslint-react/kit`, thus breaking
+          // renovated upgrades. Since I have a test for this, I'm happy with
+          // the "unsafe" comparison.
+          /* eslint-disable @typescript-eslint/no-unsafe-enum-comparison */
           // › Guard: must not already be arrow function
-          if (node.type === AST_NODE_TYPES.ArrowFunctionExpression) {
+          if (node.type === "ArrowFunctionExpression") {
             continue;
           }
 
@@ -47,10 +51,7 @@ export function functionComponentDefinition() {
                   const body = src.getText(node.body);
 
                   // ─── Case: function declaration ──────────────
-                  if (
-                    node.type === AST_NODE_TYPES.FunctionDeclaration &&
-                    node.id
-                  ) {
+                  if (node.type === "FunctionDeclaration" && node.id) {
                     return fixer.replaceText(
                       node,
                       `const ${node.id.name} = ${prefix}${typeParams}${params}${returnType} => ${body};`,
@@ -59,8 +60,8 @@ export function functionComponentDefinition() {
 
                   // ─── Case: function expression in variable ───
                   if (
-                    node.type === AST_NODE_TYPES.FunctionExpression &&
-                    node.parent.type === AST_NODE_TYPES.VariableDeclarator
+                    node.type === "FunctionExpression" &&
+                    node.parent.type === "VariableDeclarator"
                   ) {
                     return fixer.replaceText(
                       node,
@@ -70,8 +71,8 @@ export function functionComponentDefinition() {
 
                   // ─── Case: object method shorthand ───────────
                   if (
-                    node.type === AST_NODE_TYPES.FunctionExpression &&
-                    node.parent.type === AST_NODE_TYPES.Property
+                    node.type === "FunctionExpression" &&
+                    node.parent.type === "Property"
                   ) {
                     return fixer.replaceText(
                       node.parent,
