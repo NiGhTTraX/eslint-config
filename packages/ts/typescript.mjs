@@ -58,6 +58,7 @@ export const nighttraxTS = (
         "arrow-body-style": ["error", "as-needed"],
         "object-shorthand": "error",
         curly: ["error", "all"],
+        "prefer-template": "error",
         "@stylistic/padding-line-between-statements": [
           "error",
           { blankLine: "always", prev: "*", next: "return" },

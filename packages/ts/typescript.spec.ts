@@ -1,8 +1,11 @@
 // eslint-disable-next-line @typescript-eslint/require-await
-async function test(foo: number) {
+async function test(foo: string) {
   // eslint-disable-next-line @typescript-eslint/only-throw-error
   throw foo;
 }
+
+// eslint-disable-next-line @typescript-eslint/no-floating-promises
+test("foo");
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any,no-unassigned-vars
 let x: any;
@@ -22,5 +25,8 @@ if (foo === "a") {
   console.log("a");
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars,prefer-const,@typescript-eslint/no-unnecessary-type-assertion
+// eslint-disable-next-line prefer-const,@typescript-eslint/no-unnecessary-type-assertion
 let bar: string = "a"!;
+
+// eslint-disable-next-line prefer-template
+void test("1" + bar);
