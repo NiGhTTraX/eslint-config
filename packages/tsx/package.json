@@ -27,7 +27,7 @@
     "@eslint-react/kit": "~5.17.0",
     "@nighttrax/eslint-config-ts": "workspace:*",
     "eslint-plugin-react-you-might-not-need-an-effect": "~1.0.0",
-    "typescript-eslint": "~8.64.0"
+    "typescript-eslint": "~8.65.0"
   },
   "peerDependencies": {
     "eslint": "^10.0.0",
