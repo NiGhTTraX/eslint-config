@@ -18,5 +18,10 @@
     "prettier": "~3.9.0",
     "typescript": "~6.0.0"
   },
-  "packageManager": "pnpm@11.15.1"
+  "packageManager": "pnpm@11.15.1",
+  "pnpm": {
+    "overrides": {
+      "brace-expansion": "5.0.7"
+    }
+  }
 }
