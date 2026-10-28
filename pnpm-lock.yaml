@@ -232,7 +232,7 @@ importers:
         version: 19.3.0
       react:
         specifier: ~19.3.0
-        version: 19.3.0
+        version: 19.3.1
 
 packages:
 
@@ -2460,8 +2460,8 @@ packages:
     resolution: {integrity: sha512-+Owyggi9IxT1ePKGafcI87ubSmxol6smwJ+RAHDQlx9+9cPwFWDiKFFCPuWhr9ignlGpZ9vDQLw67N4dcTVFEA==}
     engines: {node: '>=20'}
 
-  react@19.3.0:
-    resolution: {integrity: sha512-E8LUcbtBWt20bbl2YoHfx4ZDBdxVTfOKtCZn9cDSJ4l6/nuoApcpIBcj47t2wZoVX8g2ZHuMHbiShgCR1T5Sog==}
+  react@19.3.1:
+    resolution: {integrity: sha512-QNhWdt7nrgVWWQG58QuGsAR3jv3Hbe4mb4vz7w2csnHavciZJgda1CPNaldF6eVxv90ud3jUXpKlHL69gO38yw==}
     engines: {node: '>=0.10.0'}
 
   read-cmd-shim@7.0.1:
@@ -5286,7 +5286,7 @@ snapshots:
     dependencies:
       hookified: 2.2.0
 
-  react@19.3.0: {}
+  react@19.3.1: {}
 
   read-cmd-shim@7.0.1: {}
 
