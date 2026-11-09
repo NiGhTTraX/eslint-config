@@ -22,6 +22,11 @@
     "packageManager": {
       "name": "pnpm",
       "version": "12.15.0"
+    },
+    "runtime": {
+      "name": "node",
+      "version": "^26",
+      "onFail": "download"
     }
   }
 }
