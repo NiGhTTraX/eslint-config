@@ -224,8 +224,8 @@ importers:
         specifier: workspace:*
         version: link:../ts
       eslint-plugin-react-you-might-not-need-an-effect:
-        specifier: ~1.0.0
-        version: 1.0.3(eslint@10.14.0(jiti@2.7.0)(supports-color@7.2.0))
+        specifier: ~1.1.0
+        version: 1.1.0(eslint@10.14.0(jiti@2.7.0)(supports-color@7.2.0))
       typescript-eslint:
         specifier: ~8.72.0
         version: 8.72.1(eslint@10.14.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
@@ -1637,8 +1637,8 @@ packages:
       eslint:
         optional: true
 
-  eslint-plugin-react-you-might-not-need-an-effect@1.0.3:
-    resolution: {integrity: sha512-Om1wODVZaboHWOCUeDPaVuefJTdqx0WdDtGtYySzNl6KLiILKXdKx4YufHMdclUEP5+fS6u+0yTpd6xvJBaIVg==}
+  eslint-plugin-react-you-might-not-need-an-effect@1.1.0:
+    resolution: {integrity: sha512-cufMxMG0clISeHDMbJpOVmUSk2Hc1wQyFTW5mHO/POvAJNN3gfSSinPjxHN66iqGpsmGzon7y4HsEvcXRkHD0w==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       eslint: '>=8.40.0'
@@ -4395,7 +4395,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-react-you-might-not-need-an-effect@1.0.3(eslint@10.14.0(jiti@2.7.0)(supports-color@7.2.0)):
+  eslint-plugin-react-you-might-not-need-an-effect@1.1.0(eslint@10.14.0(jiti@2.7.0)(supports-color@7.2.0)):
     dependencies:
       eslint: 10.14.0(jiti@2.7.0)(supports-color@7.2.0)
 
